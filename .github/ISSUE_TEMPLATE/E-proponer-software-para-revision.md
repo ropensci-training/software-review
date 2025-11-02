@@ -3,8 +3,14 @@ name: Preguntar si el software está dentro del alcance de rOpenSci
 about: ¿Quieres confirmar que tu paquete encaja en una revisión?
 ---
 
-Usuario GitHub de la Persona Encargada: @ejemplo
-Repositorio: https://github.com/ejemplo/repositorio
+<!---
+Este es un ejemplo simplificado pero con estructura real.
+Completa la información
+NO BORRAR LOS SIMBOLOS HTML (todo entre "<!" y ">"). 
+--->
+
+Usuario GitHub de la Persona Encargada: <!--author1-->@github_handle<!--end-author1-->
+Repositorio: <!--repourl-->https://repourl<!--end-repourl-->
 
 ---
 
@@ -25,3 +31,4 @@ Repositorio: https://github.com/ejemplo/repositorio
   - [ ] validación y comprobación de datos (data validation and testing)
 
 -  ¿Tienes otras preguntas u otros comentarios?
+
