@@ -1,35 +1,32 @@
 ---
-title: Esquema 
+title: Taller de revisión de software por pares en rOpenSci
 date: last-modified
 ---
 
-# Links
+# Esquema
 
-- Repositorio de apoyo: [maurolepore/sofware-review](https://github.com/maurolepore/software-review)
-  - TODO move to https://github.com/ropensci-training 
-  - Plantillas de issues imitando a ropensci/software-review
-  - Slides
-- [documento colaborativeo](TODO add link)
-- [devguide](https://devdevguide.netlify.app/es/index.es) 
-- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-- Paquete de practica: TODO
-- Ejemplos de paquetes en Español: TODO
+Día 1: Proponer software para revisión
 
-- Blogs sobre el proceso de revision:
-  - como autor/a: https://ropensci.org/es/blog/2025/03/25/r-package-review/
-  - Como revisor/a https://ropensci.org/es/blog/2017/09/08/first-review-experiences/
-  - https://ropensci.org/es/blog/2017/08/22/first-package-review/
+- Como autor/a proponer un paquete para revisión
+- Familiarizarse con el alcance y excepciones de rOpenSci
+- Entender la estructura del feedback constructivo y amable
+- Instalar pkgcheck
 
-# Objetivos 
+Día 2: Enviar software para revisión
+
+- Profundizar en alcance
+- Usar pkgcheck para detectar y corregir problemas
+- Revisar parte de un paquete de forma constructiva y amable
+- Responder a una revisión de forma constructiva y amable 
 
 ##  Día 1: Introducción y proponer software para revisión
 
-- Conocer el flujo de del proceso de revisión
-- Ejercitar el proceso simplificado para proponer software para revisión
-  - Familiarizarse con el alcance y excepciones de rOpenSci
-  - Identificar y ejercitar la estructura del feedback constructivo y amable
-- Explorar detalles del proceso y generar preguntas y respuestas
-- Instalar pkgcheck
+- Previsualizar el flujo de del proceso de revisión. 
+- Ejercitar el proceso simplificado para proponer software para revisión. 
+  - Familiarizarse con el alcance y excepciones de rOpenSci. 
+  - Entender la estructura del feedback constructivo y amable. 
+- Explorar detalles del proceso y generar preguntas y respuestas. 
+- Instalar pkgcheck. 
 
 ## Día 2: Enviar software para revisión
 
@@ -47,7 +44,7 @@ date: last-modified
 
 ##  Día 1: Proponer software para revisión 
 
-- Conocer el flujo de del proceso de revisión
+- Previsualizar el flujo de del proceso de revisión
   - Etiquetar el [diagrama de flujo de trabajo](https://bit.ly/flujo-de-revisión)
 - Ejercitar el proceso simplificado para proponer software para revisión
   - Escribir un comendario constructivo y amable notificando que el paquete esta fuera del alcance.
@@ -136,3 +133,19 @@ date: last-modified
   - feedback
   - invite to subscrive to become a reviewer via the form and ask to spread the word
 
+
+# Links
+
+- Repositorio de apoyo: [maurolepore/sofware-review](https://github.com/maurolepore/software-review)
+  - TODO move to https://github.com/ropensci-training 
+  - Plantillas de issues imitando a ropensci/software-review
+  - Slides
+- TODO documento colaborativo
+- [devguide](https://devdevguide.netlify.app/es/index.es) 
+- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+- Paquete de practica: TODO
+- Ejemplos de paquetes en Español: TODO
+- Blogs sobre el proceso de revision:
+  - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
+  - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
+  - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
