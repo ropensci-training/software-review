@@ -5,25 +5,70 @@ date: last-modified
 
 # Esquema
 
-Día 1: Proponer software para revisión
+## Día 1: Proponer software para revisión
+
+Objetivos:
 
 - Como autor/a proponer un paquete para revisión
 - Familiarizarse con el alcance y excepciones de rOpenSci
-- Entender la estructura del feedback constructivo y amable
+- Entender por qué y cómo dar feedback constructivo y amable
 - Instalar pkgcheck
 
-Día 2: Enviar software para revisión
+## Día 2: Enviar software para revisión
+
+Objetivos:
 
 - Profundizar en alcance
 - Usar pkgcheck para detectar y corregir problemas
-- Revisar parte de un paquete de forma constructiva y amable
-- Responder a una revisión de forma constructiva y amable 
+- Como revisor/a revisar parte de un paquete de forma constructiva y amable
+- Como autor/a responder a una revisión de forma constructiva y amable 
 
 #  Día 1: Proponer software para revisión
 
-## Previsualizar el flujo de del proceso de revisión
+## Como es el proceso de revision por pares en academia?
 
-- Etiquetar el [diagrama de flujo de trabajo](https://bit.ly/flujo-de-revisión)
+Describir el proceso de revision por pares en academia. Enfocate en cualquier aspecto especifico del proceso. 
+
+Por ejemplo:
+
+- (Que?) Las etapas basicas del proceso son ...
+- (Quien?) Los roles mas comunes son ...
+- (Como?) La cumunicacion es ...
+- (Donde) La plataforma donde ocurre es ...
+- (Por que) La motivacion de un/a autor/a o revisor/a es ...
+- (Cuando) El trabajo se rechaza o publica cuando ...
+
+## El proceso de revisión en rOpenSci
+
+- Etiquetar el [diagrama de flujo de trabajo](https://lucid.app/lucidchart/8be1a782-2426-4996-b0a7-405d5b2ebf2a/edit?invitationId=inv_3c869d3f-ec90-4989-9907-2a8d60350425&page=0_0#)
+
+```{mermaid}
+flowchart LR
+    B((1-___________))
+    B --> C{2-¿Dentro del alcance?}
+    C -->|No| E{3-___________}
+    C -->|Si| D[4-_______]
+    E -->|Si| D
+    E -->|No| G((5-Cerrar issue))
+```
+
+a. ¿Excepcion?
+b. Revisar
+c. Abrir issue
+
+<details><summary>Solución</summary>
+
+```{mermaid}
+flowchart LR
+    B((1-Abrir issue))
+    B --> C{2-¿Dentro del alcance?}
+    C -->|No| E{3-¿Excepcion?}
+    C -->|Si| D[4-Revisar]
+    E -->|Si| D
+    E -->|No| G((5-Cerrar issue))
+```
+
+</details>
 
 ## Ejercitar el proceso simplificado para proponer software para revisión
 
