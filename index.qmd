@@ -3,34 +3,25 @@ title: Taller de revisión de software por pares en rOpenSci
 date: last-modified
 ---
 
-# Esquema
+# Objetivos
 
-## Día 1: Introduccion y poroponer software para revisión
+Día 1
 
-Objetivos:
+1. Entender las etapas y qualidades mas importantes del proceso en rOpenSci
+2. Ejercitar el proceso para proponer software para revision
+3. Instalar pkgcheck
 
-- Entender los aspectos mas destacados del proceso en rOpenSci
-- Como autor/a proponer un paquete para revisión
-- Familiarizarse con el alcance y excepciones de rOpenSci
-- Entender por qué y cómo dar feedback constructivo y amable
-- Instalar pkgcheck
+Día 2
 
-## Día 2: Enviar software para revisión
-
-Objetivos:
-
-- Profundizar en alcance
-- Usar pkgcheck para detectar y corregir problemas
-- Como revisor/a revisar parte de un paquete de forma constructiva y amable
-- Como autor/a responder a una revisión de forma constructiva y amable 
+4. Ejercitar el proceso para enviar software para revision
 
 #  Día 1: Introduccion y proponer software para revisión
 
-# Introduccion
+# 1. Entender las etapas y qualidades mas importantes del proceso en rOpenSci
 
-## Revision por pares en rOpensci
+## Revision en la academia vs. rOpensci
 
-Como se compara con lo que conocer de la academia?
+En cada comunidad ...
 
 - Cual es la motivacion de un/a autor/a o revisor/a?
 - Que otros roles participan?
@@ -38,7 +29,12 @@ Como se compara con lo que conocer de la academia?
 - Cuando se acepta o rechaza un trabajo?
 - Como es la comunicacion?
 
-## {{< fa edit >}} Revision por pares en rOpensci
+Recursos
+
+- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+- [Codigo de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+
+## {{< fa edit >}} Revision en la academia vs. rOpensci
 
 Describir el proceso de revision por pares en academia. Enfocate en cualquier aspecto especifico del proceso.
 
@@ -50,28 +46,6 @@ Por ejemplo:
 - (Donde) La plataforma donde ocurre es ...
 - (Por que) La motivacion de un/a autor/a o revisor/a es ...
 - (Cuando) El trabajo se rechaza o publica cuando ...
-
-## El [Codigo de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
-
-- La comunidad es nuestro mejor activo
-- Nuestra diversidad es nuestra fortaleza
-- No toleramos ningún tipo de acoso
-
-## La estructura del feedback constructivo y amable
-
-(Lo demas son detalles.)
-
-Ofrecer tres cosas:
-
-1. Seguridad
-1. Sugerencia
-1. Seguimiento
-
-## {{< fa edit >}} La estructura del feedback constructivo y amable
-
-- Como revisor/a, escribi una introduccion minima pero constructiva y amable como encabezado para una revision imaginaria.
-
-- Como autor/a, escribi una introduccion minima pero constructiva y amable como encabezado para tus respuestas imaginarias a las sugerencias de un/a revisor/a.
 
 ## Proponer
 
@@ -134,24 +108,65 @@ flowchart LR
 a. Publicar
 b. Revisar
 
-## Ejercitar el proceso simplificado para proponer software para revisión
+## Comunicacion: Codigo de Conducta
 
-NEXT
+- La comunidad es nuestro mejor activo
+- Nuestra diversidad es nuestra fortaleza
+- No toleramos ningún tipo de acoso
 
-- Escribir un comendario constructivo y amable notificando que el paquete esta fuera del alcance.
+Recurso:
+
+- [Codigo de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+
+## Comunicacion: Estructura
+
+### La estructura del feedback constructivo y amable
+
+Ofrecer:
+
+1. Seguridad
+1. Sugerencia
+1. Seguimiento
+
+TODO link ejemplo
+
+## {{< fa edit >}} Comunicacion: Estructura
+
+### La estructura del feedback constructivo y amable
+
+- Como revisor/a, escribi una introduccion minima pero constructiva y amable como encabezado para una revision imaginaria.
+
+- Como autor/a, escribi una introduccion minima pero constructiva y amable como encabezado para tus respuestas imaginarias a las sugerencias de un/a revisor/a.
+
+# 2. Ejercitar el proceso para proponer software para revision
+
+## Proponer software para revision
+
+Abri un issue para proponer software en el [repositorio de practica](https://github.com/maurolepore/software-review/issues). Podes usar tu paquete o cualquiera de estos: [eph](https://github.com/ropensci/software-review/issues/593), [karel](https://github.com/ropensci/software-review/issues/620), [agroclimatico](https://github.com/ropensci/software-review/issues/599).
+
+Recursos
+
+- [Repositorio real donde se revisa el software](https://github.com/ropensci/software-review)
+- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+
+NEXT. TODO link repo
+
+Escribir un comendario constructivo y amable notificando que el paquete esta fuera del alcance.
 
 ## Explorar detalles del proceso y generar preguntas
 
 - Explorar la [plantilla real de propuesta de software para revisión](https://github.com/ropensci/software-review/issues)
 - Explorar issues reales etiquetados con [0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
 
-## Instalar [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+# 3. Instalar pkgcheck
 
 ```r
 install.packages ("pkgcheck")
 ```
 
-## Repaso
+[pkgcheck](https://docs.ropensci.org/pkgcheck/)
+
+# Repaso
 
 Escribir reflexiones que cuenten la historia de lo que vimos
 
@@ -162,7 +177,13 @@ Escribir reflexiones que cuenten la historia de lo que vimos
 - Por que? e.g. La revision por pares ayuda a ...
 - Cuando? ej. La evaluacion de alcance debe hacerse antes de ... 
 
-#  Día 2: Enviar software para revisión
+#  Día 2: 4. Ejercitar el proceso para enviar software para revision:
+
+
+- Profundizar en alcance
+- Usar pkgcheck para detectar y corregir problemas
+- Revisar y responder a una revision de forma constructiva y amable
+
 
 ## Repaso
 
@@ -221,7 +242,7 @@ FIXME
   - Plantillas de issues imitando a ropensci/software-review
   - Slides
 - TODO documento colaborativo
-- [devguide](https://devdevguide.netlify.app/es/index.es) 
+- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
 - Paquete de practica: TODO
 - Ejemplos de paquetes en Español: TODO

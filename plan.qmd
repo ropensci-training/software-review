@@ -7,7 +7,7 @@ date: last-modified
 
 Día 1: Proponer software para revisión
 
-- Como autor/a proponer un paquete para revisión
+- Ejercitar el proceso para proponer software para revision
 - Familiarizarse con el alcance y excepciones de rOpenSci
 - Entender la estructura del feedback constructivo y amable
 - Instalar pkgcheck
@@ -110,7 +110,7 @@ FIXME
   - Plantillas de issues imitando a ropensci/software-review
   - Slides
 - TODO documento colaborativo
-- [devguide](https://devdevguide.netlify.app/es/index.es) 
+- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
 - Paquete de practica: TODO
 - Ejemplos de paquetes en Español: TODO
