@@ -1,0 +1,16 @@
+project:
+  type: book
+
+book:
+  title: "Taller de revisión de software por pares en rOpenSci"
+  author: "Mauro Lepore"
+  date: last-modified
+  chapters:
+    - book.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
