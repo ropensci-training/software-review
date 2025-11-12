@@ -13,31 +13,33 @@ format:
 
 ## Objetivos principales
 
-Dia 1:
+Dia 1
 - Entender las etapas y qualidades mas importantes del proceso de revision por pares en rOpenSci
 - Ejercitar el proceso para proponer software para revision
 
-Dia 2:
+Dia 2
 - Ejercitar el proceso para enviar software para revision
 
 ## Plan dia 1
 
-- Introduccion
-  - Comparacion con academia
-  - Diagrama del proceso para proponer software para revision
-  - Diagrama del proceso para enviar software para revision
-  - La comunicacion en rOpenSci
-  - Recursos
+Introduccion
 
--  Proponer software para revision
-  - Abrir un issue
-  - Communicaci
+- Comparacion con la academia
+- El proceso para proponer software para revision
+- El proceso para enviar software para revision
+- La comunicacion en rOpenSci
+- Recursos
 
-- Instalar pkgcheck
+Proponer software para revision
 
-- Cierre dia 1
+- Abrir un issue
+- Comunicar amablemente
 
-## Comparacion con academia
+Preguntas y respuestas
+
+Instalar pkgcheck
+
+## Comparacion con la academia
 
 En la academia y en rOpenSci ...
 
@@ -100,35 +102,41 @@ Como editor/a, escribir un comendario constructivo y amable notificando que el p
 
 A modo de ejemplo podes usar [karel](https://github.com/ropensci/software-review/issues/620), que fue revisado como exepcion por el programa de campeopne/as pero que normalmente esta fuera del alcancd de las categorias de rOpenSci.
 
-## Generar preguntas
+# Preguntas y respuestas
 
-Explorar los detalles del proceso para proponer sofware para revision y generar preguntas, sobre lo que vimos y lo que no vimos hoy:
+(10') Explorar los detalles del proceso para proponer sofware para revision y generar preguntas, sobre lo que vimos y lo que no vimos hoy:
 
 - Explorar la [plantilla real de propuesta de software para revisión](https://github.com/ropensci/software-review/issues)
 - Explorar issues reales etiquetados con [0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
 
-## Proponer software para revision: Respuestas
+(10') Respuestas.
 
-Vamos a intentar responder la mayor cantidad de preguntas posible.
+# Instalar pkgcheck [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+
+```r
+install.packages ("pkgcheck")
+```
+
+# Recursos
+
+- TODO documento colaborativo
+- [Codigo de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+- [Repositorio de practica](https://github.com/maurolepore/software-review/issues)
+- Paquetes de campeone/as en español:
+  - [eph](https://github.com/ropensci/software-review/issues/593)
+  - [karel](https://github.com/ropensci/software-review/issues/620)
+  - [agroclimatico](https://github.com/ropensci/software-review/issues/599)
+- Blogs sobre el proceso de revision:
+  - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
+  - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
+  - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
+- Blog sobre communicacion en open source: [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
 
 # Ejercicios
 
-## {{< fa edit >}} Comparacion con academia
-
-Describir el proceso de revision por pares en academia. Enfocate en cualquier aspecto especifico del proceso.
-
-Por ejemplo:
-
-- (Que?) Las etapas basicas del proceso son ...
-- (Quien?) Los roles mas comunes son ...
-- (Como?) La cumunicacion es ...
-- (Donde) La plataforma donde ocurre es ...
-- (Por que) La motivacion de un/a autor/a o revisor/a es ...
-- (Cuando) El trabajo se rechaza o publica cuando ...
-
-## {{< fa edit >}} Proponer
-
-El proceso para proponer software para revision
+## {{< fa edit >}} El proceso para proponer software para revision
 
 ```{mermaid}
 flowchart LR
@@ -144,7 +152,7 @@ a. ¿Excepcion?
 b. Enviar
 c. Abrir issue
 
-## {{< fa edit >}} Enviar
+## {{< fa edit >}} El proceso para enviar software para revision
 
 El proceso para enviar software para revision
 
@@ -160,7 +168,6 @@ flowchart LR
 a. Publicar
 b. Revisar
 
-
 ## {{< fa edit >}} Comunicacion: Estructura
 
 ### La estructura del feedback constructivo y amable
@@ -169,7 +176,7 @@ b. Revisar
 
 - Como autor/a, escribi una introduccion minima pero constructiva y amable como encabezado para tus respuestas imaginarias a las sugerencias de un/a revisor/a.
 
-## {{< fa edit >}} Repaso
+## {{< fa edit >}} Reflexiones
 
 Escribir reflexiones que cuenten la historia de lo que vimos
 
@@ -179,27 +186,3 @@ Escribir reflexiones que cuenten la historia de lo que vimos
 - Donde? ej. Todo el proceso ocurre en ....
 - Por que? e.g. La revision por pares ayuda a ...
 - Cuando? ej. La evaluacion de alcance debe hacerse antes de ...
-
-## {{< fa edit >}} Instalar [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-
-```r
-install.packages ("pkgcheck")
-```
-
-# Links
-
-- Repositorio de apoyo: [maurolepore/sofware-review](https://github.com/maurolepore/software-review)
-  - TODO move to https://github.com/ropensci-training
-  - Plantillas de issues imitando a ropensci/software-review
-  - Slides
-- TODO documento colaborativo
-- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
-- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-- Paquete de practica: TODO
-- Ejemplos de paquetes en Español: TODO
-- [Codigo de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
-- [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
-- Blogs sobre el proceso de revision:
-  - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
-  - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
-  - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
