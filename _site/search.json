@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "draft.html#objetivos-principales",
+    "href": "draft.html#objetivos-principales",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Objetivos principales",
+    "text": "Objetivos principales\nDía 1:\n\nEntender las etapas y cualidades mas importantes del proceso de revision por pares en rOpenSci\nEjercitar el proceso para proponer software para revision\n\nDía 2:\n\nEjercitar el proceso para enviar software para revision"
+  },
+  {
+    "objectID": "draft.html#plan-día-1",
+    "href": "draft.html#plan-día-1",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Plan día 1",
+    "text": "Plan día 1\n\nIntroducción al proceso de punta a punta\nProponer software para revision\nPreguntas y respuestas\nInstalar pkgcheck"
+  },
+  {
+    "objectID": "draft.html#comparación-con-la-academia",
+    "href": "draft.html#comparación-con-la-academia",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Comparación con la academia",
+    "text": "Comparación con la academia\nEn la academia y en rOpenSci …\n\n¿Cuál es la motivacion de un/a autor/a o revisor/a?\n¿Qué otros roles participan?\n¿Qué medio se usa para la comunicación?\n¿Cuándo se acepta o rechaza un trabajo?\n¿Cómo es la comunicación?"
+  },
+  {
+    "objectID": "draft.html#proponer-software-para-revision",
+    "href": "draft.html#proponer-software-para-revision",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Proponer software para revision",
+    "text": "Proponer software para revision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo\n\n\n\n\n\n\n\nSi\n\n\n\n\n\n\n\nSi\n\n\n\n\n\n\n\nNo\n\n\n\n\n\n\n\n1-Abrir issue\n\n\n\n\n\n\n\n2-¿Dentro del alcance?\n\n\n\n\n\n\n\n3-¿Excepcion?\n\n\n\n\n\n\n\n4-Enviar\n\n\n\n\n\n\n\n5-Cerrar issue"
+  },
+  {
+    "objectID": "draft.html#enviar-software-para-revision",
+    "href": "draft.html#enviar-software-para-revision",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Enviar software para revision",
+    "text": "Enviar software para revision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo\n\n\n\n\n\n\n\nSi\n\n\n\n\n\n\n\n1-Abrir issue\n\n\n\n\n\n\n\n2-Revisar\n\n\n\n\n\n\n\n3-¿Listo?\n\n\n\n\n\n\n\nPublicar"
+  },
+  {
+    "objectID": "draft.html#la-comunicación-en-ropensci-codigo-de-conducta",
+    "href": "draft.html#la-comunicación-en-ropensci-codigo-de-conducta",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "La comunicación en rOpenSci: Codigo de Conducta",
+    "text": "La comunicación en rOpenSci: Codigo de Conducta\n\nLa comunidad es nuestro mejor activo\nNuestra diversidad es nuestra fortaleza\nNo toleramos ningún tipo de acoso"
+  },
+  {
+    "objectID": "draft.html#la-comunicación-en-ropensci-estructura",
+    "href": "draft.html#la-comunicación-en-ropensci-estructura",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "La comunicación en rOpenSci: Estructura",
+    "text": "La comunicación en rOpenSci: Estructura\nOfrecer:\n\nSeguridad\nSugerencia\nSeguimiento"
+  },
+  {
+    "objectID": "draft.html#la-comunicación-en-ropensci-ejemplos",
+    "href": "draft.html#la-comunicación-en-ropensci-ejemplos",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "La comunicación en rOpenSci: Ejemplos",
+    "text": "La comunicación en rOpenSci: Ejemplos\nTODO link ejemplo"
+  },
+  {
+    "objectID": "draft.html#abrir-issue",
+    "href": "draft.html#abrir-issue",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Abrir issue",
+    "text": "Abrir issue\nAbrí un issue para proponer software en el repositorio de practica. Podés usar tu paquete o cualquiera de estos: eph, karel, agroclimatico."
+  },
+  {
+    "objectID": "draft.html#comunicar-amablemente",
+    "href": "draft.html#comunicar-amablemente",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Comunicar amablemente",
+    "text": "Comunicar amablemente\nComo editor/a, escribir un comentario constructivo y amable notificando que el paquete esta fuera del alcance de rOpenSci.\nA modo de ejemplo podes usar karel, que fue revisado como excepción por el programa de campeone/as pero que normalmente esta fuera del alcance de las categorias de rOpenSci."
+  },
+  {
+    "objectID": "draft.html#el-proceso-para-proponer-software-para-revision",
+    "href": "draft.html#el-proceso-para-proponer-software-para-revision",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": " El proceso para proponer software para revision",
+    "text": "El proceso para proponer software para revision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo\n\n\n\n\n\n\n\nSi\n\n\n\n\n\n\n\nSi\n\n\n\n\n\n\n\nNo\n\n\n\n\n\n\n\n1-___________\n\n\n\n\n\n\n\n2-¿Dentro del alcance?\n\n\n\n\n\n\n\n3-___________\n\n\n\n\n\n\n\n4-_______\n\n\n\n\n\n\n\n5-Cerrar issue\n\n\n\n\n\n\n\n\n\n\n\n¿Excepcion?\nEnviar\nAbrir issue"
+  },
+  {
+    "objectID": "draft.html#el-proceso-para-enviar-software-para-revision",
+    "href": "draft.html#el-proceso-para-enviar-software-para-revision",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": " El proceso para enviar software para revision",
+    "text": "El proceso para enviar software para revision\nEl proceso para enviar software para revision\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo\n\n\n\n\n\n\n\nSi\n\n\n\n\n\n\n\n1-Abrir issue\n\n\n\n\n\n\n\n2-_______\n\n\n\n\n\n\n\n3-¿Listo?\n\n\n\n\n\n\n\n4-________\n\n\n\n\n\n\n\n\n\n\n\nPublicar\nRevisar"
+  },
+  {
+    "objectID": "draft.html#comunicacion-estructura",
+    "href": "draft.html#comunicacion-estructura",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": " Comunicacion: Estructura",
+    "text": "Comunicacion: Estructura\nLa estructura del feedback constructivo y amable\n\nComo revisor/a, escribi una introduccion minima pero constructiva y amable como encabezado para una revision imaginaria.\nComo autor/a, escribi una introduccion minima pero constructiva y amable como encabezado para tus respuestas imaginarias a las sugerencias de un/a revisor/a."
+  },
+  {
+    "objectID": "draft.html#reflexiones",
+    "href": "draft.html#reflexiones",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": " Reflexiones",
+    "text": "Reflexiones\nEscribir reflexiones que cuenten la historia de lo que vimos\n\nQue? ej. Las actividades principales del proceso son …\nQuien? ej. Los roles que participan en la presubmisión son …\nComo? ej. El feedback debe ser …\nDonde? ej. Todo el proceso ocurre en ….\nPor que? e.g. La revision por pares ayuda a …\nCuando? ej. La evaluacion de alcance debe hacerse antes de …"
+  },
+  {
+    "objectID": "draft.html#plan-para-el-día-1",
+    "href": "draft.html#plan-para-el-día-1",
+    "title": "Taller de revisión de software por pares en rOpenSci",
+    "section": "Plan para el día 1",
+    "text": "Plan para el día 1\n\nIntroducción al proceso de punta a punta\nProponer software para revision\nPreguntas y respuestas\nInstalar pkgcheck"
+  }
+]

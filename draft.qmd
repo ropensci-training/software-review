@@ -3,41 +3,31 @@ title: Taller de revisión de software por pares en rOpenSci
 author: Mauro Lepore
 date: last-modified
 format:
-  html:
-    toc: true
-    toc-depth: 3
-    toc-location: left
+  revealjs:
+    slide-number: true
+    scrollable: true
+    mermaid-format: svg
 ---
 
-# Introducción
+# Introducción al proceso de punta a punta
 
 ## Objetivos principales
 
-Día 1
+Día 1:
+
 - Entender las etapas y cualidades mas importantes del proceso de revision por pares en rOpenSci
 - Ejercitar el proceso para proponer software para revision
 
-Día 2
+Día 2:
+
 - Ejercitar el proceso para enviar software para revision
 
-## Plan día 1
+## Plan para el día 1
 
-Introducción
-
-- Comparación con la academia
-- El proceso para proponer software para revision
-- El proceso para enviar software para revision
-- La comunicación en rOpenSci
-- Recursos
-
-Proponer software para revision
-
-- Abrir un issue
-- Comunicar amablemente
-
-Preguntas y respuestas
-
-Instalar pkgcheck
+- Introducción al proceso de punta a punta
+- Proponer software para revision
+- Preguntas y respuestas
+- Instalar pkgcheck
 
 ## Comparación con la academia
 
@@ -82,9 +72,9 @@ flowchart LR
 
 Ofrecer:
 
-1. Seguridad
-1. Sugerencia
-1. Seguimiento
+- Seguridad
+- Sugerencia
+- Seguimiento
 
 ## La comunicación en rOpenSci: Ejemplos
 
@@ -102,6 +92,12 @@ Como editor/a, escribir un comentario constructivo y amable notificando que el p
 
 A modo de ejemplo podes usar [karel](https://github.com/ropensci/software-review/issues/620), que fue revisado como excepción por el programa de campeone/as pero que normalmente esta fuera del alcance de las categorias de rOpenSci.
 
+# Instalar pkgcheck [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+
+```r
+install.packages ("pkgcheck")
+```
+
 # Preguntas y respuestas
 
 (10') Explorar los detalles del proceso para proponer software para revision y generar preguntas, sobre lo que vimos y lo que no vimos hoy:
@@ -110,12 +106,6 @@ A modo de ejemplo podes usar [karel](https://github.com/ropensci/software-review
 - Explorar issues reales etiquetados con [0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
 
 (10') Respuestas.
-
-# Instalar pkgcheck [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-
-```r
-install.packages ("pkgcheck")
-```
 
 # Recursos
 
