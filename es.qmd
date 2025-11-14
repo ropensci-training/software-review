@@ -78,7 +78,69 @@ Ofrecer:
 
 ## La comunicación en rOpenSci: Ejemplos
 
-TODO link ejemplo
+eph:
+
+<details><summary>[Revision de `@guadag12`](https://github.com/ropensci/software-review/issues/593#issuecomment-1709968472)</summary>
+
+Seguridad
+
+> Antes que nada, felicitaciones por el paquete. ... En terminos generales funciona muy bien, corre rápido, es simple de usar y tiene mucha información. 
+
+Sugerencia
+
+> Ahora si, procedo a la review siguiendo las recomendaciones de rOpenSci:
+> ...
+> De todo lo que mencioné tal vez le prestaría atención a dos aspectos:
+> - Los ejemplos de las funciones que mencionaba arriba. ...
+> - Los test unitarios en las funciones que consideren más relevantes los agregaría. ...
+
+Seguimiento
+
+> Una vez que eso está, creo que estamos para avanzar 😊. Gran trabajo,
+
+</details>
+
+<details><summary>[Respuesta de `@caropradier`](https://github.com/ropensci/software-review/issues/593#issuecomment-1714421144)</summary>
+
+Seguridad
+
+> @lidefi87 gracias de nuevo por tus esfuerzos!
+
+Sugerencia
+
+> Respecto al nombre de las funciones, intentaría no hacer modificaciones mayores para no perturbar el flujo de trabajo de nuestros usuarios actuales (aproximadamente 30 mil personas usan el paquete y quisiera evitar generarles inconvenientes si no se trata de algo fundamental para el funcionamiento del paquete). No obstante, estoy de acuerdo con que se trata de una buena práctica, y lo tendré presente al incorporar nuevas funciones.
+
+</details>
+
+agroclimatico
+
+<details><summary>[Revision de `@VeruGHub`](https://github.com/ropensci/software-review/issues/599#issuecomment-1936698026)</summary>
+
+Seguridad
+
+> En primer lugar, quiero agradecer la oportunidad de revisar este paquete y espero que los comentarios sirvan para mejorar en los puntos que los autores consideren oportunos. Creo que los autores han hecho un gran trabajo compilando las funciones relacionadas con la gestión de datos climáticos que son útiles para el INTA.
+
+Sugerencia
+
+> Creo que algunos aspectos formales de la documentación pueden ser mejorados. Para empezar, la funcionalidad del paquete no está completamente definida en la documentación (Readme) ... Mejorar estas descripciones e incluir programación defensiva relativa a los argumentos (en general faltante) ayudaría mucho a los usuarios.
+
+</details>
+
+<details><summary>[Respuesta de `@paocorrales`](https://github.com/ropensci/software-review/issues/599#issuecomment-2143389578)</summary>
+
+Seguridad
+
+> En primer lugar, muchas gracias @pmnatural y @VeruGHub por la revisión y los comentarios, y a @Pakillo por ordenarlos y organizar todo.
+
+Sugerencia
+
+> Incorporé los comentarios y sugerencias al paquete. ...
+
+Segumiento
+
+> Espero no haberme olvidado de nada, aguardo sus comentarios!
+
+</details>
 
 # Proponer software para revision
 
