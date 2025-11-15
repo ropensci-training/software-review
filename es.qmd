@@ -1,5 +1,5 @@
 ---
-title: Taller de revisión de software por pares en rOpenSci
+title: Taller de revisión de software por pares de rOpenSci
 author: <https://github.com/maurolepore/software-review>
 date: last-modified
 format:
