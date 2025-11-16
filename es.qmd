@@ -1,7 +1,7 @@
 ---
 title: Taller de revisión de software por pares de rOpenSci
-author: <https://github.com/maurolepore/software-review>
 date: last-modified
+author: Mauro Lepore
 format:
   revealjs:
     slide-number: true
@@ -11,27 +11,48 @@ format:
 
 # Introducción al taller
 
-- Hola! Soy [Mauro](https://ropensci.org/author/mauro-lepore/) 👋
-- Este taller para [vos](https://ropensci.org/es/champions/) 🏅🇪🇸
+Hola, soy [Mauro](https://ropensci.org/author/mauro-lepore/) 👋. Este taller para [vos](https://ropensci.org/es/champions/) 🏅🇪🇸
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<sub>
+Licencia: [Atribución/Reconocimiento-NoComercial 4.0 Internacional](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+</sub>
 
 ## Objetivos principales
 
+Día 1
+
 - Familiarizarse con las etapas y cualidades del proceso
 - Practicar proponer software para revisión
+
+Día 2
+
 - Practicar enviar software para revisión
 
-## Plan para el día 1
+## Plan para hoy
 
-- Introducción al taller
-- Introducción al proceso de punta a punta
-- Pausa
-- Proponer software para revisión
-- Preguntas y respuestas
+- `00:00` Introducción al taller
+- `00:05` Introducción al proceso de punta a punta
+  - `00:10` Comparacion con la academia
+  - `00:20` Proponer y enviar software para revisión
+  - `00:30` {pkgcheck}
+  - `00:40` Codigo de conducta y comunicacion
+- `00:55` Pausa
+- `01:05` Proponer software para revisión
+  - `01:10` Abrir issue
+  - `01:25` Comunicacion amable y constructiva
+- `01:40` Preguntas y respuestas
 
 # Introducción al proceso de punta a punta
 
-- [Guía de desarrollo, mantenimiento y revisión por pares](https://devguide.ropensci.org/es/index.es.html)
-- [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+La forma en la que trabajamos con [software](https://devguide.ropensci.org/es/index.es.html) y [personas](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 
 ## Comparación con la academia
 
@@ -55,29 +76,9 @@ flowchart LR
     E -->|No| G((5-Cerrar issue))
 ```
 
-## [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-
-- Uso en un issue ([comandos del bot](https://devguide.ropensci.org/es/bot_cheatsheet.es.html))
-
-```r
-@ropensci-review-bot check package
-```
-
-- Ejemplo del resultado: [{eph}](https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055)
-
-- Uso local
-
-```r
-  options (repos = c (
-    ropenscireviewtools = "https://ropensci-review-tools.r-universe.dev",
-    CRAN = "https://cloud.r-project.org"
-  ))
-  install.packages("pkgcheck")
-  
-  paquete <- "/camino/al/paquete"
-  resultados <- pkgcheck::pkgcheck(paquete)
-  summary(resultados)
-```
+:::aside
+[Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+:::
 
 ## Enviar software para revisión
 
@@ -90,31 +91,118 @@ flowchart LR
     D -->|Si| E((Publicar))
 ```
 
-## [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+:::aside
+[Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+:::
+
+## {pkgcheck}: Uso en un "issue"
+
+```r
+@ropensci-review-bot check package
+```
+
+<br>
+
+[Ejemplo](https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055)
+
+:::aside
+[Comandos del bot](https://devguide.ropensci.org/es/bot_cheatsheet.es.html)
+:::
+
+## {pkgcheck}: Uso local
+
+Instalación
+
+```r
+  options (repos = c (
+    ropenscireviewtools = "https://ropensci-review-tools.r-universe.dev",
+    CRAN = "https://cloud.r-project.org"
+  ))
+  install.packages("pkgcheck")
+```
+
+<br>
+
+Ejemplo
+
+```r
+  paquete <- "/camino/al/paquete"
+  resultados <- pkgcheck::pkgcheck(paquete)
+  resultados
+  
+  summary(resultados)
+```
+
+:::aside
+[Documentacion de {pkgcheck}](https://docs.ropensci.org/pkgcheck/)
+:::
+
+## Código de Conducta
 
 - La comunidad es nuestro mejor activo
 - Nuestra diversidad es nuestra fortaleza
 - No toleramos ningún tipo de acoso
 
-## Comunicación amable y constructiva
-
-### Estructura
-
-- Seguridad
-- Sugerencia
-- Seguimiento
-
-::: aside
-
-Recursos
-
-- [Cómo ganar amigos e influir sobre las personas](https://www.amazon.com/-/es/influir-personas-Friends-Influence-Spanish/dp/164473009X)
-- [Conversaciones Cruciales: herramientas para comunicar mejor cuando más se necesita](https://www.amazon.com/Conversaciones-Cruciales-Edici%C3%B3n-revisada-conocimiento-ebook/dp/B01EX1TZQG/ref=sr_1_1?adgrpid=167955646707&dib=eyJ2IjoiMSJ9.Ws1WzIBF0cC2Dm2-H47hguDVuXRPmMy9rZLGRYA4t3ER8EP9QL1L1dPW8a2l0c2aI65gElZhBVvYTfIcqtuaBVQcnOAmIBffgVzFQKm44rUISeaXgEIVBBw4-muztHHDiwE9jwRJSFYtSDFMAq4h9Rvb-GvpCxfZNzbfBApAjBAXNIQ63XVjTnFrOly1C-YCBSC8uEVyOljvl5CfMMfShGRKX-fYLjSLXyU0CJW-xuk.LRH-a9xfbt1VH_6O1wTX-6nxoUp_g1gSKmBPfElISuA&dib_tag=se&hvadid=730129623296&hvdev=c&hvlocphy=9070297&hvnetw=g&hvqmt=e&hvrand=357311298508997420&hvtargid=kwd-319512755646&hydadcr=23800_13790585&keywords=conversaciones+cruciales&mcid=bd94c27aa7253eda9e137472f79bfcd2&qid=1763123775&sr=8-1)
+:::aside
+[Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 :::
 
 ## Comunicación amable y constructiva
 
-### Ejemplos
+<br>
+
+Ofrecer
+
+- Seguridad
+- Sugerencia/Sentencia
+- Seguimiento
+
+::: aside
+[Cómo ganar amigos e influir sobre las personas](https://www.amazon.com/-/es/influir-personas-Friends-Influence-Spanish/dp/164473009X)  
+[Conversaciones Cruciales: herramientas para comunicar mejor cuando más se necesita](https://www.amazon.com/Conversaciones-Cruciales-Edici%C3%B3n-revisada-conocimiento-ebook/dp/B01EX1TZQG/ref=sr_1_1?adgrpid=167955646707&dib=eyJ2IjoiMSJ9.Ws1WzIBF0cC2Dm2-H47hguDVuXRPmMy9rZLGRYA4t3ER8EP9QL1L1dPW8a2l0c2aI65gElZhBVvYTfIcqtuaBVQcnOAmIBffgVzFQKm44rUISeaXgEIVBBw4-muztHHDiwE9jwRJSFYtSDFMAq4h9Rvb-GvpCxfZNzbfBApAjBAXNIQ63XVjTnFrOly1C-YCBSC8uEVyOljvl5CfMMfShGRKX-fYLjSLXyU0CJW-xuk.LRH-a9xfbt1VH_6O1wTX-6nxoUp_g1gSKmBPfElISuA&dib_tag=se&hvadid=730129623296&hvdev=c&hvlocphy=9070297&hvnetw=g&hvqmt=e&hvrand=357311298508997420&hvtargid=kwd-319512755646&hydadcr=23800_13790585&keywords=conversaciones+cruciales&mcid=bd94c27aa7253eda9e137472f79bfcd2&qid=1763123775&sr=8-1)
+:::
+
+## Comunicación amable y constructiva
+
+Explica cómo y por qué el paquete se incluye en estas categorías.
+
+> [`@szimmer` (autora)](https://github.com/ropensci/software-review/issues/726#issue-3465625692): Esto no encajaba exactamente en ninguna categoría predefinida, así que agregué la mía propia. Implementa algoritmos de muestreo estadístico
+
+[`@mpadge` (editor)](https://github.com/ropensci/software-review/issues/726#issuecomment-3350567704)
+
+<details><summary>Respuesta 1 (editado)</summary>
+
+> @szimmer, las categorías de estadística están literalmente codificadas en forma de nuestra serie de estándares específicos por categoría. Esperamos y planeamos expandir las categorías lentamente, pero no podemos hacerlo en respuesta a envíos individuales.
+
+</details>
+
+<details><summary>Respuesta 2 (editado)</summary>
+
+> Gracias por consultar aquí @szimmer. Este parece un paquete muy interesante, pero desafortunadamente las categorías de estadística están literalmente codificadas en forma de nuestra serie de estándares específicos por categoría. Esperamos y planeamos expandir las categorías lentamente, pero no podemos hacerlo en respuesta a envíos individuales.
+
+</details>
+
+<details><summary>Respuesta 3 (editado)</summary>
+
+> Gracias por consultar aquí @szimmer. Este parece un paquete muy interesante, pero desafortunadamente las categorías de estadística están literalmente codificadas en forma de nuestra serie de estándares específicos por categoría. Esperamos y planeamos expandir las categorías lentamente, pero no podemos hacerlo en respuesta a envíos individuales.
+
+> Dicho esto, he revisado un poco tu paquete y veo una posibilidad en la categoría de Distribuciones de Probabilidad. ... La adaptación para cumplir con nuestros estándares de Distribuciones de Probabilidad requeriría modificar el comportamiento de muestreo subyacente, para permitir el muestreo de formas distribucionales específicas.
+
+> ...
+
+> Por favor déjame saber qué piensas.
+
+(Diez dias mas tarde)
+
+> @szimmer Do you have any thoughts in response to my suggestions above?
+
+</details>
+
+## Comunicación amable y constructiva
+
+<br>
+
+Mas ejemplos
 
 {eph}
 
@@ -203,22 +291,6 @@ A modo de ejemplo podés usar [karel](https://github.com/ropensci/software-revie
 
 (10') Respuestas.
 
-# Recursos
-
-- Repositorio de práctica: <https://github.com/maurolepore/software-review>
-- TODO documento colaborativo
-- [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
-- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
-- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-- Paquetes de campeones/as en español:
-  - [eph](https://github.com/ropensci/software-review/issues/593)
-  - [karel](https://github.com/ropensci/software-review/issues/620)
-  - [agroclimatico](https://github.com/ropensci/software-review/issues/599)
-- Blogs sobre el proceso de revisión:
-  - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
-  - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
-  - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
-- Blog sobre comunicación en open source: [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
 
 # Ejercicios
 
@@ -272,3 +344,21 @@ Escribir reflexiones que cuenten la historia de lo que vimos
 - ¿Dónde? ej. Todo el proceso ocurre en ....
 - ¿Por qué? e.g. La revisión por pares ayuda a ...
 - ¿Cuándo? ej. La evaluación de alcance debe hacerse antes de ...
+
+
+## Recursos
+
+- FIXME Repositorio de práctica: <https://github.com/maurolepore/software-review>
+- FIXME [Documento colaborativo](https://bit.ly/taller-de-revision-de-software-por-pares-de-ropensci)
+- [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+- Paquetes de campeones/as en español:
+  - [eph](https://github.com/ropensci/software-review/issues/593)
+  - [agroclimatico](https://github.com/ropensci/software-review/issues/599)
+  - [karel](https://github.com/ropensci/software-review/issues/620)
+- Blogs sobre el proceso de revisión:
+  - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
+  - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
+  - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
+- Blog sobre comunicación en open source: [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
