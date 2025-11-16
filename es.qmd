@@ -164,6 +164,42 @@ Ofrecer
 
 ## Comunicación amable y constructiva
 
+Explica cómo y por qué el paquete encaja en estas categorías.
+
+> `@autor/a`: No encontré una categoría que se ajustara perfectamente, por lo que creé [categoría propia].
+
+`@editor/a`
+
+<details><summary>Respuesta 1</summary>
+
+> @autor/a,
+
+> Lamentablemente nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
+
+</details>
+
+<details><summary>Respuesta 2</summary>
+
+> @autor/a gracias por tu consulta. El paquete parece muy interesante.
+
+> Lamentablemente nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
+
+</details>
+
+<details><summary>Respuesta 3</summary>
+
+> @autor/a gracias por tu consulta. El paquete parece muy interesante.
+
+> Lamentablemente nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
+
+> Sin embargo, si cambiaras algunos elementos de la implementacion actual el paquete podría encajar en [categoría alternativa]. (Cambios sugeridos ...)
+
+> Que te parece esa idea?
+
+</details>
+
+## Comunicación amable y constructiva
+
 Explica cómo y por qué el paquete se incluye en estas categorías.
 
 > [`@szimmer` (autora)](https://github.com/ropensci/software-review/issues/726#issue-3465625692): Esto no encajaba exactamente en ninguna categoría predefinida, así que agregué la mía propia. Implementa algoritmos de muestreo estadístico
