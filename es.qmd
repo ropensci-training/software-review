@@ -200,42 +200,6 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 ## Comunicación amable y constructiva
 
-Explica cómo y por qué el paquete se incluye en estas categorías.
-
-> [`@szimmer` (autora)](https://github.com/ropensci/software-review/issues/726#issue-3465625692): Esto no encajaba exactamente en ninguna categoría predefinida, así que agregué la mía propia. Implementa algoritmos de muestreo estadístico
-
-[`@mpadge` (editor)](https://github.com/ropensci/software-review/issues/726#issuecomment-3350567704)
-
-<details><summary>Respuesta 1 (editado)</summary>
-
-> @szimmer, las categorías de estadística están literalmente codificadas en forma de nuestra serie de estándares específicos por categoría. Esperamos y planeamos expandir las categorías lentamente, pero no podemos hacerlo en respuesta a envíos individuales.
-
-</details>
-
-<details><summary>Respuesta 2 (editado)</summary>
-
-> Gracias por consultar aquí @szimmer. Este parece un paquete muy interesante, pero desafortunadamente las categorías de estadística están literalmente codificadas en forma de nuestra serie de estándares específicos por categoría. Esperamos y planeamos expandir las categorías lentamente, pero no podemos hacerlo en respuesta a envíos individuales.
-
-</details>
-
-<details><summary>Respuesta 3 (editado)</summary>
-
-> Gracias por consultar aquí @szimmer. Este parece un paquete muy interesante, pero desafortunadamente las categorías de estadística están literalmente codificadas en forma de nuestra serie de estándares específicos por categoría. Esperamos y planeamos expandir las categorías lentamente, pero no podemos hacerlo en respuesta a envíos individuales.
-
-> Dicho esto, he revisado un poco tu paquete y veo una posibilidad en la categoría de Distribuciones de Probabilidad. ... La adaptación para cumplir con nuestros estándares de Distribuciones de Probabilidad requeriría modificar el comportamiento de muestreo subyacente, para permitir el muestreo de formas distribucionales específicas.
-
-> ...
-
-> Por favor déjame saber qué piensas.
-
-(Diez dias mas tarde)
-
-> @szimmer Do you have any thoughts in response to my suggestions above?
-
-</details>
-
-## Comunicación amable y constructiva
-
 <br>
 
 Mas ejemplos
