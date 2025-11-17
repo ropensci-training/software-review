@@ -72,20 +72,6 @@ En la academia y en rOpenSci:
 
 ```{mermaid}
 flowchart LR
-    B((1-___________))
-    B --> C{2-¿Dentro del alcance?}
-    C -->|No| E{3-___________}
-    C -->|Si| D[4-_______]
-    E -->|Si| D
-    E -->|No| G((5-Cerrar issue))
-```
-
-a. ¿Excepción?  / b. Enviar / c. Abrir issue
-
-<details>
-
-```{mermaid}
-flowchart LR
     B((1-Abrir issue))
     B --> C{2-¿Dentro del alcance?}
     C -->|No| E{3-¿Excepción?}
@@ -94,22 +80,7 @@ flowchart LR
     E -->|No| G((5-Cerrar issue))
 ```
 
-</details>
-
 ## [Enviar software para revisión](https://github.com/ropensci/software-review/issues)
-
-```{mermaid}
-flowchart LR
-    B((1-Abrir issue))
-    B --> C[2-_______]
-    C --> D{3-¿Listo?}
-    D -->|No| C
-    D -->|Si| E((4-________))
-```
-
-a. Publicar / b. Revisar
-
-<details>
 
 ```{mermaid}
 flowchart LR
@@ -120,12 +91,9 @@ flowchart LR
     D -->|Si| E((Publicar))
 ```
 
-</details>
-
 ## {pkgcheck}: Uso en un "issue"
 
 <br>
-
 
 ```r
 @ropensci-review-bot check package
@@ -227,7 +195,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 > Te recomendaría revisar y publicar el paquete en el [Journal of Open Source Software](https://joss.theoj.org/).
 
-> Cuando tengas otro paquete dentro de nuestro alcance por favor volvé a contactarnos.
+> Espero que pronto podamos trabajar con vos en algun otro paquete.
 
 </details>
 
