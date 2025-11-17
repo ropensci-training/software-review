@@ -152,7 +152,7 @@ Ejemplo
 Ofrecer
 
 - Seguridad
-- Sugerencia/Sentencia
+- Sugerencia/Decisión
 - Seguimiento
 
 ::: aside
@@ -168,7 +168,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 <br>
 
-**Del 1 al 10, cuantos puntos le das a cada respuesta?**
+**Del 1 al 10, cuántos puntos le das a cada respuesta?**
 
 <details><summary>Respuesta 1</summary>
 
@@ -195,7 +195,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 > Te recomendaría revisar y publicar el paquete en el [Journal of Open Source Software](https://joss.theoj.org/).
 
-> Espero que pronto podamos trabajar con vos en algun otro paquete.
+> Espero que pronto podamos trabajar con vos en algún otro paquete.
 
 </details>
 
@@ -215,7 +215,7 @@ Seguridad
 
 > En primer lugar, quiero agradecer la oportunidad de revisar este paquete y espero que los comentarios sirvan para mejorar en los puntos que los autores consideren oportunos.
 
-Sugerencia/Sentencia
+Sugerencia/Decisión
 
 > Creo que algunos aspectos formales de la documentación pueden ser mejorados. Para empezar, la funcionalidad del paquete no está completamente definida en la documentación (Readme) ... Mejorar estas descripciones e incluir programación defensiva relativa a los argumentos (en general faltante) ayudaría mucho a los usuarios.
 
@@ -227,7 +227,7 @@ Seguridad
 
 > En primer lugar, muchas gracias @pmnatural y @VeruGHub por la revisión y los comentarios.
 
-Sugerencia/Sentencia
+Sugerencia/Decisión
 
 > Incorporé los comentarios y sugerencias al paquete.
 
@@ -245,7 +245,7 @@ Seguridad
 
 > @lidefi87 gracias de nuevo por tus esfuerzos!
 
-Sugerencia/Sentencia
+Sugerencia/Decisión
 
 > Respecto al nombre de las funciones, intentaría no hacer modificaciones mayores para no perturbar el flujo de trabajo de nuestros usuarios actuales (aproximadamente 30 mil personas usan el paquete y quisiera evitar generarles inconvenientes si no se trata de algo fundamental para el funcionamiento del paquete). No obstante, estoy de acuerdo con que se trata de una buena práctica, y lo tendré presente al incorporar nuevas funciones.
 
@@ -314,5 +314,5 @@ Usá tu propio paquete o cualquiera de estos:
   - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
   - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
   - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
-- Blog sobre comunicación en open source (en ingles): [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
+- Blog sobre comunicación en open source (en inglés): [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
 - [Voluntariarte para revisar](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
