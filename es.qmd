@@ -283,7 +283,7 @@ Usá tu propio paquete o cualquiera de estos:
 
 - Escribí un comentario amable y constructivo, notificando al autor que el paquete está fuera del alcance de rOpenSci
 
-- Recomendando su revisión y publicación en el ["Journal of Open Source Education"](http://jose.theoj.org/)
+- Recomenda revisarlo y publicarlo en el ["Journal of Open Source Education"](http://jose.theoj.org/)
 
 # Preguntas y respuestas
 
