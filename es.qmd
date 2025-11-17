@@ -48,7 +48,7 @@ Día 2
   - `00:40` Codigo de conducta y comunicacion
 - `00:55` Pausa
 - `01:05` Proponer software para revisión
-  - `01:10` Abrir issue
+  - `01:10` Abrir un "issue"
   - `01:25` Comunicacion amable y constructiva
 - `01:40` Preguntas y respuestas
 
@@ -124,6 +124,9 @@ flowchart LR
 
 ## {pkgcheck}: Uso en un "issue"
 
+<br>
+
+
 ```r
 @ropensci-review-bot check package
 ```
@@ -195,6 +198,8 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 > `@autor/a`: No encontré una categoría que se ajustara perfectamente, por lo que creé una categoría nueva.
 
+<br>
+
 **Del 1 al 10, cuantos puntos le das a cada respuesta?**
 
 <details><summary>Respuesta 1</summary>
@@ -232,9 +237,9 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 ## Comunicación amable y constructiva
 
-Mas ejemplos
+<br>
 
-{agroclimatico}
+Ejemplos de revisión y resupesta en {agroclimatico}
 
 <details><summary>[Revisión de `@VeruGHub` (revisora)](https://github.com/ropensci/software-review/issues/599#issuecomment-1936698026)</summary>
 
@@ -264,7 +269,7 @@ Seguimiento
 
 </details>
 
-{eph}
+Ejemplo de oposición a una sugerencia en {eph}
 
 <details><summary>[Respuesta de `@caropradier` (autora)](https://github.com/ropensci/software-review/issues/593#issuecomment-1714421144)</summary>
 
@@ -283,47 +288,58 @@ Sugerencia/Sentencia
 </sub>
 
 # Pausa 10'
+
 # Proponer software para revisión
 
-## Abrir issue
+## Abrir un "issue"
 
-Abrí un issue para proponer software en el [repositorio de práctica](https://github.com/maurolepore/software-review/issues). Podés usar tu paquete o cualquiera de estos: [eph](https://github.com/ropensci/software-review/issues/593), [karel](https://github.com/ropensci/software-review/issues/620), [agroclimatico](https://github.com/ropensci/software-review/issues/599).
+<br>
 
-## Comunicar amablemente
+Abrí un "issue" para proponer software para revisión en el [repositorio de práctica](https://github.com/maurolepore/software-review/issues)
 
-Como editor/a, escribir un comentario constructivo y amable notificando que el paquete está fuera del alcance de rOpenSci.
+<br>
 
-A modo de ejemplo podés usar [karel](https://github.com/ropensci/software-review/issues/620), que fue revisado como excepción por el programa de campeones/as pero que normalmente está fuera del alcance de las categorías de rOpenSci.
+Usá tu propio paquete o cualquiera de estos:
+
+- [{agroclimatico}](https://github.com/ropensci/software-review/issues/599): Índices y Estadísticos Climáticos e Hidrológicos
+- [{eph}](https://github.com/ropensci/software-review/issues/593): Encuesta Permanente de Hogares de Argentina
+- [{karel}](https://github.com/ropensci/software-review/issues/620): Aprendiendo programación en R
+
+## Comunicación amable y constructiva
+
+<br>
+
+- [{karel}](https://docs.ropensci.org/karel/) esta fuera del alcance de las categorías de rOpenSci ([fue revisado](https://github.com/ropensci/software-review/issues/620) como excepción por el programa de campeones/as)
+
+- Asumi el rol de editor/a
+
+- Escribi un comentario amable y constructivo, notificando al autor que el paquete está fuera del alcance de rOpenSci
+
+- Recomendando su revision y publicacion en el ["Journal of Open Source Education"](http://jose.theoj.org/)
 
 # Preguntas y respuestas
 
-(10') Explorar los detalles del proceso para proponer software para revisión y generar preguntas, sobre lo que vimos y lo que no vimos hoy:
+<br>
 
-- Explorar la [plantilla real de propuesta de software para revisión](https://github.com/ropensci/software-review/issues)
-- Explorar issues reales etiquetados con [0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
+- (5') Generar preguntas sobre el proceso de proponer software para revision. Para inspirarte podes explorar:
 
-(10') Respuestas.
+  - [la plantilla real de propuesta de software para revisión](https://github.com/ropensci/software-review/issues)
+  -  ["issues" reales etiquetados con 0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
 
-# Ejercicios
+- (5') Vota `+1` en 3 preguntas de otras personas
 
-## {{< fa edit >}} Comunicación: Estructura
-
-### La estructura del feedback constructivo y amable
-
-- Como revisor/a, escribí una introducción mínima pero constructiva y amable como encabezado para una revisión imaginaria.
-
-- Como autor/a, escribí una introducción mínima pero constructiva y amable como encabezado para tus respuestas imaginarias a las sugerencias de un/a revisor/a.
+- (10') Respuestas
 
 ## {{< fa edit >}} Reflexiones
 
 Escribir reflexiones que cuenten la historia de lo que vimos
 
 - ¿Qué? ej. Las actividades principales del proceso son ...
-- ¿Quién? ej. Los roles que participan en la presubmisión son ...
+- ¿Quién? ej. Los roles activos en la presubmisión son ...
 - ¿Cómo? ej. El feedback debe ser ...
-- ¿Dónde? ej. Todo el proceso ocurre en ....
+- ¿Dónde? ej. Todo el proceso ocurre en ...
 - ¿Por qué? e.g. La revisión por pares ayuda a ...
-- ¿Cuándo? ej. La evaluación de alcance debe hacerse antes de ...
+- ¿Cuándo? ej. La evaluación de alcance se hace antes de ...
 
 ## Recursos
 
@@ -331,6 +347,8 @@ Escribir reflexiones que cuenten la historia de lo que vimos
 - FIXME [Documento colaborativo](https://bit.ly/taller-de-revision-de-software-por-pares-de-ropensci)
 - [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 - Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
+  - [Guía para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
+  - [Guía para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
 - Paquetes de campeones/as en español:
   - [eph](https://github.com/ropensci/software-review/issues/593)
@@ -340,7 +358,5 @@ Escribir reflexiones que cuenten la historia de lo que vimos
   - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
   - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
   - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
-- Blog sobre comunicación en open source: [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
-- [Guía para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
-- [Guía para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
+- Blog sobre comunicación en open source (en ingles): [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
 - [Voluntariarte para revisar](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
