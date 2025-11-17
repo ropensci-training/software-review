@@ -295,7 +295,7 @@ Sugerencia/Sentencia
 
 <br>
 
-Abrí un "issue" para proponer software para revisión en el [repositorio de práctica](https://github.com/maurolepore/software-review/issues)
+Abrí un "issue" para proponer software para revisión en el [repositorio de práctica](https://github.com/ropensci-training/software-review/issues)
 
 <br>
 
@@ -332,8 +332,7 @@ Usá tu propio paquete o cualquiera de estos:
 
 ## Recursos
 
-- FIXME Repositorio de práctica: <https://github.com/maurolepore/software-review>
-- FIXME [Documento colaborativo](https://bit.ly/taller-de-revision-de-software-por-pares-de-ropensci)
+- Repositorio de práctica: <https://github.com/ropensci-training/software-review>
 - [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 - Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
   - [Guía para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
