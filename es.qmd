@@ -300,19 +300,34 @@ Usá tu propio paquete o cualquiera de estos:
 
 ## Recursos
 
-- Repositorio de práctica: <https://github.com/ropensci-training/software-review>
+Taller
+
+- <https://github.com/ropensci-training/software-review>
+- [Documento colaborativo](https://docs.google.com/document/d/14vpj_nzMyiP0H8YqSgFgfhZ99w9tIFAELRkEvBTINOo/edit?tab=t.0#heading=h.igss5ybwaspx) 
+
+Comunicacion
+
 - [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
-- Libro [Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares](https://devdevguide.netlify.app/es/index.es)
-  - [Guía para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
-  - [Guía para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
+
+Revision
+
+- [Guia de desarrollo](https://devdevguide.netlify.app/es/index.es)
+  - [Categorias de paquetes](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
+  - [Para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
+  - [Para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
+- [Guia de software estadistico](https://stats-devguide.ropensci.org/)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-- Paquetes de campeones/as en español:
-  - [eph](https://github.com/ropensci/software-review/issues/593)
-  - [agroclimatico](https://github.com/ropensci/software-review/issues/599)
-  - [karel](https://github.com/ropensci/software-review/issues/620)
-- Blogs sobre el proceso de revisión:
-  - [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/) (Alex Koiter, autor)
-  - [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/) (Verena Haunschmid, revisora)
-  - [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/) (Mara Averick revisora)
-- Blog sobre comunicación en open source (en inglés): [Setting expectations for open source participation](https://snarky.ca/setting-expectations-for-open-source-participation/)
-- [Voluntariarte para revisar](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
+
+Blogs sobre el proceso de revisión
+
+- [Revisión del software, perspectivas de un académico](https://ropensci.org/es/blog/2025/03/25/r-package-review/)
+- [Experiencias revisando paquetes de rOpenSci por primera vez](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/)
+- [Así que (no) crees que puedas revisar un paquete](https://ropensci.org/es/blog/2017/08/22/first-package-review/)
+
+Paquetes de campeones/as en español
+
+- [eph](https://github.com/ropensci/software-review/issues/593)
+- [agroclimatico](https://github.com/ropensci/software-review/issues/599)
+- [karel](https://github.com/ropensci/software-review/issues/620)
+
+[Voluntariarte para revisar](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
