@@ -183,7 +183,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 `@editor/a`:
 
-> @autor/a gracias por tu consulta. El paquete parece muy interesante pero lamentablemente está fuera del alcance de las categorias actuales de rOpenSci. Nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
+> @autor/a gracias por tu consulta. El paquete parece muy interesante pero lamentablemente está fuera del alcance de las categorías actuales de rOpenSci. Nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
 
 </details>
 
@@ -191,7 +191,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 `@editor/a`:
 
-> @autor/a gracias por tu consulta. El paquete parece muy interesante pero lamentablemente está fuera del alcance de las categorias actuales de rOpenSci. Nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
+> @autor/a gracias por tu consulta. El paquete parece muy interesante pero lamentablemente está fuera del alcance de las categorías actuales de rOpenSci. Nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.
 
 > Te recomendaría revisar y publicar el paquete en el [Journal of Open Source Software](https://joss.theoj.org/).
 
@@ -283,18 +283,18 @@ Usá tu propio paquete o cualquiera de estos:
 
 - Escribí un comentario amable y constructivo, notificando al autor que el paquete está fuera del alcance de rOpenSci
 
-- Recomenda revisarlo y publicarlo en el ["Journal of Open Source Education"](http://jose.theoj.org/)
+- Recomendá revisarlo y publicarlo en el ["Journal of Open Source Education"](http://jose.theoj.org/)
 
 # Preguntas y respuestas
 
 <br>
 
-- Generar preguntas sobre el proceso de proponer software para revisión. Para inspirarte podés explorar:
+- Generá preguntas sobre el proceso de proponer software para revisión. Para inspirarte podés explorar:
 
   - [la plantilla real de propuesta de software para revisión](https://github.com/ropensci/software-review/issues)
   -  ["issues" reales etiquetados con 0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
 
-- Vota con `+` en 3 preguntas de otras personas
+- Votá con `+` en 3 preguntas de otras personas
 
 - Respuestas
 
@@ -305,17 +305,17 @@ Taller
 - <https://github.com/ropensci-training/software-review>
 - [Documento colaborativo](https://docs.google.com/document/d/14vpj_nzMyiP0H8YqSgFgfhZ99w9tIFAELRkEvBTINOo/edit?tab=t.0#heading=h.igss5ybwaspx) 
 
-Comunicacion
+Comunicación
 
 - [Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 
-Revision
+Revisión
 
-- [Guia de desarrollo](https://devdevguide.netlify.app/es/index.es)
-  - [Categorias de paquetes](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
+- [Guía de desarrollo](https://devdevguide.netlify.app/es/index.es)
+  - [Categorías de paquetes](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
   - [Para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
   - [Para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
-- [Guia de software estadistico](https://stats-devguide.ropensci.org/)
+- [Guía de software estadístico](https://stats-devguide.ropensci.org/)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
 
 Blogs sobre el proceso de revisión
@@ -330,4 +330,4 @@ Paquetes de campeones/as en español
 - [agroclimatico](https://github.com/ropensci/software-review/issues/599)
 - [karel](https://github.com/ropensci/software-review/issues/620)
 
-[Voluntariarte para revisar](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
+[Ofrecerte como voluntario/a para revisar](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
