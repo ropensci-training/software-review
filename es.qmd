@@ -311,7 +311,7 @@ Comunicación
 
 Revisión
 
-- [Elegí entre distintos tipos de "issue"](https://github.com/ropensci/software-review/issues/new/choose)
+- [Propone o enviá software para revisión](https://github.com/ropensci/software-review/issues/new/choose)
 - [Guía de desarrollo](https://devdevguide.netlify.app/es/index.es)
   - [Categorías de paquetes](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
   - [Para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
