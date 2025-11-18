@@ -40,27 +40,23 @@ Día 2
 
 ## Plan para hoy
 
-- Introducción al taller
+Introducción al taller
 
-- Introducción al proceso de punta a punta
-
-<details>
-  - Comparación con la academia
-  - Proponer y enviar software para revisión
-  - {pkgcheck}
-  - Código de conducta y comunicación
+<details><summary>Introducción al proceso de punta a punta</summary>
+- Comparación con la academia
+- Proponer y enviar software para revisión
+- {pkgcheck}
+- Código de conducta y comunicación
 </details>
 
-- Pausa
+Pausa
 
-- Proponer software para revisión
-
-<details>
-  - Abrir un "issue"
-  - Comunicación amable y constructiva
+<details><summary>Proponer software para revisión</summary>
+- Abrir un "issue"
+- Comunicación amable y constructiva
 </details>
 
-- Preguntas y respuestas
+Preguntas y respuestas
 
 # Introducción al proceso de punta a punta
 
