@@ -267,7 +267,7 @@ Why do we prefer the second response?
 
 > @author,
 > Thank you for your inquiry. Your package looks very interesting, but unfortunately it doesn't seem to fit rOpenSci's current categories.
-> I would recommend publishing it in the [Journal of Open Source Software](https://joss.theoj.org/). And if you have another package or want to [explore how to contribute in other ways](https://contributing.ropensci.org/), we'll be happy to guide you.
+> I would recommend publishing it in the [Journal of Open Source Software](https://joss.theoj.org/), the [r-multiverse](https://r-multiverse.org/overview.html) or [other repositories](https://r-multiverse.org/overview.html#other-repositories). And if you have another package or want to [explore how to contribute in other ways](https://contributing.ropensci.org/), we'll be happy to guide you.
 
 </details>
 
