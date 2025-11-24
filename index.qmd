@@ -8,21 +8,11 @@ author: Mauro Lepore
 
 Sobre [ustedes](https://ropensci.org/es/champions/) 🏅🇪🇸 y sobre [mí](https://ropensci.org/author/mauro-lepore/) 👋.
 
-
-
-
-
-
-
-
-
 <sub>
 Licencia: [Atribución/Reconocimiento-NoComercial 4.0 Internacional](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
 </sub>
 
 ## Objetivos principales
-
-
 
 Día 1
 
@@ -52,8 +42,6 @@ Día 2
 Sobre cómo trabajamos con [software](https://devguide.ropensci.org/es/index.es.html) y [personas](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 
 ## Comparación con la academia
-
-
 
 En la academia y en rOpenSci:
 
@@ -88,13 +76,9 @@ flowchart LR
 
 ## {pkgcheck}: Uso en un "issue"
 
-
-
 ```r
 @ropensci-review-bot check package
 ```
-
-
 
 [Ejemplo](https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055)
 
@@ -113,8 +97,6 @@ Instalación
   ))
   install.packages("pkgcheck")
 ```
-
-
 
 Ejemplo
 
@@ -142,8 +124,6 @@ Ejemplo
 
 ## Comunicación amable y constructiva
 
-
-
 Ofrecer
 
 - Seguridad
@@ -160,8 +140,6 @@ Ofrecer
 Explica cómo y por qué el paquete encaja en estas categorías.
 
 > `@autor/a`: No encontré una categoría que se ajustara perfectamente, por lo que creé una categoría nueva.
-
-
 
 **Del 1 al 10, cuántos puntos le das a cada respuesta?**
 
@@ -204,11 +182,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 
 ## Abrir un "issue"
 
-
-
 Abrí un "issue" para proponer software para revisión en el [repositorio de práctica](https://github.com/ropensci-training/software-review/issues)
-
-
 
 Usá tu propio paquete o cualquiera de estos:
 
@@ -217,8 +191,6 @@ Usá tu propio paquete o cualquiera de estos:
 - [{karel}](https://github.com/ropensci/software-review/issues/620): Aprendiendo programación en R
 
 ## Comunicación amable y constructiva
-
-
 
 - [{karel}](https://docs.ropensci.org/karel/) está fuera del alcance de las categorías de rOpenSci ([fue revisado](https://github.com/ropensci/software-review/issues/620) como excepción por el programa de campeones/as)
 
@@ -229,8 +201,6 @@ Usá tu propio paquete o cualquiera de estos:
 - Recomendá revisarlo y publicarlo en el ["Journal of Open Source Education"](http://jose.theoj.org/)
 
 # Preguntas y respuestas
-
-
 
 - Generá preguntas sobre el proceso de proponer software para revisión. Para inspirarte podés explorar:
 
@@ -338,11 +308,7 @@ summary(out)
 out
 ```
 
-
-
 <details><summary>Respuestas</summary>
-
-
 
 ```r
 # install.packages("codemetar")
@@ -390,8 +356,6 @@ ahora:
 -->
 
 Propone (solo) una mejora. Usa la [plantilla de revisión](https://github.com/ropensci-training/software-review/blob/dia2/templates/es/revision.md).
-
-
 
 Podés usar tu paquete o alguno de estos -- **antes de la revisión**:
 
@@ -473,8 +437,6 @@ Ideas segun en tiempo disponible:
 -->
 
 Combina habilidades que ya practicamos.
-
-
 
 Ejemplos de revisión y respuesta en {agroclimatico}
 

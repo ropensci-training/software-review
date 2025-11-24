@@ -8,21 +8,11 @@ author: Mauro Lepore
 
 About [you](https://ropensci.org/es/champions/) 🏅🇪🇸 and about [me](https://ropensci.org/author/mauro-lepore/) 👋.
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <sub>
 License: [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
 </sub>
 
 ## Main Objectives
-
-<br>
 
 Day 1
 
@@ -35,31 +25,23 @@ Day 2
 
 ## Day 1 Plan
 
-Workshop introduction
-
-<details><summary>End-to-end process introduction</summary>
-- Comparison with academia
-- Proposing and submitting software for review
-- {pkgcheck}
-- Code of conduct and communication
-</details>
-
-Break
-
-<details><summary>Proposing software for review</summary>
-- Opening an issue
-- Kind and constructive communication
-</details>
-
-Questions and answers
+* Workshop introduction
+* End-to-end process introduction
+  - Comparison with academia
+  - Proposing and submitting software for review
+  - {pkgcheck}
+  - Code of conduct and communication
+* Break
+* Proposing software for review
+  - Opening an issue
+  - Kind and constructive communication
+* Questions and answers
 
 # End-to-end Process Introduction
 
 About how we work with [software](https://devguide.ropensci.org/es/index.es.html) and [people](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 
 ## Comparison with Academia
-
-<br>
 
 In academia and at rOpenSci:
 
@@ -94,13 +76,9 @@ flowchart LR
 
 ## {pkgcheck}: Usage in an Issue
 
-<br>
-
 ```r
 @ropensci-review-bot check package
 ```
-
-<br>
 
 [Example](https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055)
 
@@ -119,8 +97,6 @@ Installation
   ))
   install.packages("pkgcheck")
 ```
-
-<br>
 
 Example
 
@@ -148,8 +124,6 @@ Example
 
 ## Kind and Constructive Communication
 
-<br>
-
 Offer
 
 - Safety
@@ -166,8 +140,6 @@ Offer
 Explain how and why the package fits into these categories.
 
 > `@author`: I couldn't find a category that fit perfectly, so I created a new category.
-
-<br>
 
 **On a scale of 1 to 10, how many points would you give each response?**
 
@@ -210,11 +182,7 @@ Explain how and why the package fits into these categories.
 
 ## Opening an Issue
 
-<br>
-
 Open an issue to propose software for review in the [practice repository](https://github.com/ropensci-training/software-review/issues)
-
-<br>
 
 Use your own package or any of these:
 
@@ -223,8 +191,6 @@ Use your own package or any of these:
 - [{karel}](https://github.com/ropensci/software-review/issues/620): Learning Programming in R
 
 ## Kind and Constructive Communication
-
-<br>
 
 - [{karel}](https://docs.ropensci.org/karel/) is outside the scope of rOpenSci categories ([it was reviewed](https://github.com/ropensci/software-review/issues/620) as an exception through the champions program)
 
@@ -235,8 +201,6 @@ Use your own package or any of these:
 - Recommend reviewing and publishing it in the ["Journal of Open Source Education"](http://jose.theoj.org/)
 
 # Questions and Answers
-
-<br>
 
 - Generate questions about the process of proposing software for review. For inspiration you can explore:
 
@@ -255,8 +219,9 @@ What did we see on day 1? What are we going to see today?
 
 * Review
 * Preparing a package
+* Reviewing a package: Introduction
 * Break
-* Reviewing a package
+* Reviewing a package: Activity
 * Responding to a review
 * Questions and answers
 
@@ -337,17 +302,13 @@ cd saperlipopette
 
 ```r
 # pak::pak()
-out <- pkgcheck::pkgcheck("saperlipopette")
+out <- pkgcheck::pkgcheck()
 summary(out)
 
 out
 ```
 
-<br>
-
 <details><summary>Answers</summary>
-
-<br>
 
 ```r
 # install.packages("codemetar")
@@ -395,8 +356,6 @@ now:
 -->
 
 Propose (only) one improvement. Use the [review template](https://github.com/ropensci-training/software-review/blob/dia2/templates/es/revision.md).
-
-<br>
 
 You can use your package or any of these -- **before the review**:
 
@@ -478,8 +437,6 @@ Ideas depending on available time:
 -->
 
 Combines skills we already practiced.
-
-<br>
 
 Examples of review and response in {agroclimatico}
 

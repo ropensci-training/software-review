@@ -208,10 +208,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header><section id="workshop-introduction" class="level1"><h1>Workshop Introduction</h1>
 <p>About <a href="https://ropensci.org/es/champions/">you</a> 🏅🇪🇸 and about <a href="https://ropensci.org/author/mauro-lepore/">me</a> 👋.</p>
-<p><br><br><br><br><br><br><br></p>
 <p><sub> License: <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">Attribution-NonCommercial 4.0 International</a> </sub></p>
 <section id="main-objectives" class="level2"><h2 class="anchored" data-anchor-id="main-objectives">Main Objectives</h2>
-<p><br></p>
 <p>Day 1</p>
 <ul>
 <li>Familiarize yourself with the stages and qualities of the process</li>
@@ -221,25 +219,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>Practice submitting software for review</li>
 </ul></section><section id="day-1-plan" class="level2"><h2 class="anchored" data-anchor-id="day-1-plan">Day 1 Plan</h2>
-<p>Workshop introduction</p>
-<details><summary>
-End-to-end process introduction
-</summary><ul>
+<ul>
+<li>Workshop introduction</li>
+<li>End-to-end process introduction
+<ul>
 <li>Comparison with academia</li>
 <li>Proposing and submitting software for review</li>
 <li>{pkgcheck}</li>
 <li>Code of conduct and communication</li>
-</ul></details><p>Break</p>
-<details><summary>
-Proposing software for review
-</summary><ul>
+</ul>
+</li>
+<li>Break</li>
+<li>Proposing software for review
+<ul>
 <li>Opening an issue</li>
 <li>Kind and constructive communication</li>
-</ul></details><p>Questions and answers</p>
-</section></section><section id="end-to-end-process-introduction" class="level1 page-columns page-full"><h1>End-to-end Process Introduction</h1>
+</ul>
+</li>
+<li>Questions and answers</li>
+</ul></section></section><section id="end-to-end-process-introduction" class="level1 page-columns page-full"><h1>End-to-end Process Introduction</h1>
 <p>About how we work with <a href="https://devguide.ropensci.org/es/index.es.html">software</a> and <a href="https://ropensci.org/es/c%C3%B3digo-de-conducta/">people</a></p>
 <section id="comparison-with-academia" class="level2"><h2 class="anchored" data-anchor-id="comparison-with-academia">Comparison with Academia</h2>
-<p><br></p>
 <p>In academia and at rOpenSci:</p>
 <ul>
 <li>What is the motivation of an author or reviewer?</li>
@@ -287,9 +287,7 @@ Proposing software for review
 </div>
 </div>
 </section><section id="pkgcheck-usage-in-an-issue" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="pkgcheck-usage-in-an-issue">{pkgcheck}: Usage in an Issue</h2>
-<p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>ropensci<span class="sc">-</span>review<span class="sc">-</span>bot check package</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><br></p>
 <p><a href="https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055">Example</a></p>
 
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
@@ -301,7 +299,6 @@ Proposing software for review
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">CRAN =</span> <span class="st">"https://cloud.r-project.org"</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  ))</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">install.packages</span>(<span class="st">"pkgcheck"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><br></p>
 <p>Example</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>  package <span class="ot">&lt;-</span> <span class="st">"/path/to/package"</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  results <span class="ot">&lt;-</span> pkgcheck<span class="sc">::</span><span class="fu">pkgcheck</span>(package)</span>
@@ -320,7 +317,6 @@ Proposing software for review
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
 <p><a href="https://ropensci.org/es/c%C3%B3digo-de-conducta/">Code of Conduct</a></p>
 </div></div></section><section id="kind-and-constructive-communication" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="kind-and-constructive-communication">Kind and Constructive Communication</h2>
-<p><br></p>
 <p>Offer</p>
 <ul>
 <li>Safety</li>
@@ -334,7 +330,6 @@ Proposing software for review
 <blockquote class="blockquote">
 <p><code>@author</code>: I couldn’t find a category that fit perfectly, so I created a new category.</p>
 </blockquote>
-<p><br></p>
 <p><strong>On a scale of 1 to 10, how many points would you give each response?</strong></p>
 <details><summary>
 Response 1
@@ -364,9 +359,7 @@ Response 3
 </section></section><section id="break-10" class="level1"><h1>Break 10’</h1>
 </section><section id="proposing-software-for-review-1" class="level1"><h1>Proposing Software for Review</h1>
 <section id="opening-an-issue" class="level2"><h2 class="anchored" data-anchor-id="opening-an-issue">Opening an Issue</h2>
-<p><br></p>
 <p>Open an issue to propose software for review in the <a href="https://github.com/ropensci-training/software-review/issues">practice repository</a></p>
-<p><br></p>
 <p>Use your own package or any of these:</p>
 <ul>
 <li>
@@ -376,14 +369,12 @@ Response 3
 <li>
 <a href="https://github.com/ropensci/software-review/issues/620">{karel}</a>: Learning Programming in R</li>
 </ul></section><section id="kind-and-constructive-communication-2" class="level2"><h2 class="anchored" data-anchor-id="kind-and-constructive-communication-2">Kind and Constructive Communication</h2>
-<p><br></p>
 <ul>
 <li><p><a href="https://docs.ropensci.org/karel/">{karel}</a> is outside the scope of rOpenSci categories (<a href="https://github.com/ropensci/software-review/issues/620">it was reviewed</a> as an exception through the champions program)</p></li>
 <li><p>Assume the role of editor</p></li>
 <li><p>Write a kind and constructive comment, notifying the author that the package is outside the scope of rOpenSci</p></li>
 <li><p>Recommend reviewing and publishing it in the <a href="http://jose.theoj.org/">“Journal of Open Source Education”</a></p></li>
 </ul></section></section><section id="questions-and-answers" class="level1"><h1>Questions and Answers</h1>
-<p><br></p>
 <ul>
 <li>
 <p>Generate questions about the process of proposing software for review. For inspiration you can explore:</p>
@@ -400,8 +391,9 @@ Response 3
 <ul>
 <li>Review</li>
 <li>Preparing a package</li>
+<li>Reviewing a package: Introduction</li>
 <li>Break</li>
-<li>Reviewing a package</li>
+<li>Reviewing a package: Activity</li>
 <li>Responding to a review</li>
 <li>Questions and answers</li>
 </ul></section><section id="review-proposing-software" class="level2"><h2 class="anchored" data-anchor-id="review-proposing-software">Review: Proposing Software</h2>
@@ -465,15 +457,13 @@ Clone it
 </summary><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/ropensci-training/saperlipopette</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> saperlipopette</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># pak::pak()</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>out <span class="ot">&lt;-</span> pkgcheck<span class="sc">::</span><span class="fu">pkgcheck</span>(<span class="st">"saperlipopette"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>out <span class="ot">&lt;-</span> pkgcheck<span class="sc">::</span><span class="fu">pkgcheck</span>()</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(out)</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>out</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><br></p>
 <details><summary>
 Answers
-</summary><p><br></p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("codemetar")</span></span>
+</summary><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("codemetar")</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("usethis")</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Has a 'codemeta.json' file</span></span>
@@ -512,7 +502,6 @@ now:
 - aligned with the shared goal
 -->
 <p>Propose (only) one improvement. Use the <a href="https://github.com/ropensci-training/software-review/blob/dia2/templates/es/revision.md">review template</a>.</p>
-<p><br></p>
 <p>You can use your package or any of these – <strong>before the review</strong>:</p>
 <details><summary><a href="https://github.com/ropensci/agroclimatico">{agroclimatico}</a>: Climate and Hydrological Indices and Statistics
 </summary><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/ropensci/agroclimatico</span>
@@ -563,7 +552,6 @@ Ideas depending on available time:
 
 -->
 <p>Combines skills we already practiced.</p>
-<p><br></p>
 <p>Examples of review and response in {agroclimatico}</p>
 <details><summary><a href="https://github.com/ropensci/software-review/issues/599#issuecomment-1936698026">Review by <code>@VeruGHub</code> (reviewer)</a>
 </summary><p>Safety</p>
