@@ -11,7 +11,7 @@ This is a multilingual website built with babelquarto.
     - Browse: (e.g. on mac) open [URL from the previous command]
 
 - Sync content across langages: see ai/sync-languages.md
-- Publish: Push to main. The website will build and deploy to gh-pages on GitHub Actions
+- Publish: Commits to `main` publish via .github/workflows/publish.yml (e.g. when merging a PR).
 
 # To memorize
 
