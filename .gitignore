@@ -4,6 +4,6 @@
 *.html
 *yani*
 
-docs/
+_site/
 
 /.quarto/

@@ -43,7 +43,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          cd docs
+          cd _site
           git init
           git add .
           git commit -m 'Deploy website'
