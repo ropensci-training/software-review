@@ -4,7 +4,9 @@ Repositorio para aprender sobre el proceso de [revisión de software por pares d
 
 [Contenido](https://ropensci-training.github.io/software-review/)
 
-Contribuciones: El workflow esta explicado en CLAUDE.md:
+## Contribuciones
+
+El workflow esta explicado en CLAUDE.md:
 
 - Hace cambios en cualquier `index*.qmd`
 - indiciar `claude` y escribi
@@ -22,7 +24,9 @@ Repository to learn about rOpenSci's [peer software review](https://ropensci.org
 
 [Contents](https://ropensci-training.github.io/software-review/en/)
 
-Contributions: The workflow is explained in CLAUDE.md:
+## Contributions
+
+The workflow is explained in CLAUDE.md:
 
 - Make changes to any `index*.qmd`
 - launch `claude` and write
