@@ -30,7 +30,7 @@ jobs:
 
       - name: Install babelquarto
         run: |
-          install.packages('babelquarto', repos = c('https://ropensci-review-tools.r-universe.dev', 'https://cloud.r-project.org'))
+          install.packages('babelquarto', repos = c('https://ropensci.r-universe.dev', 'https://cloud.r-project.org'))
         shell: Rscript {0}
 
       - name: Render multilingual website
