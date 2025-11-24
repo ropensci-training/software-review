@@ -8,11 +8,11 @@ Repositorio para aprender sobre el proceso de [revisión de software por pares d
 
 El workflow esta explicado en CLAUDE.md:
 
-- Hace cambios en cualquier `index*.qmd`
+- Hace cambios en cualquier `index*.qmd` o README.md
 - indiciar `claude` y escribi
-  - "sync" para aplicar los mismos cambios en todas las lenguas disponibles.
+  - "sync" para aplicar los mismos cambios en todas las lenguas disponibles
   - "preview" para visualizar el website
-- Publica empujando a `main`.
+- Publica via un commit a `main` (ej. via un PR)
 
 ---
 
@@ -28,11 +28,11 @@ Repository to learn about rOpenSci's [peer software review](https://ropensci.org
 
 The workflow is explained in CLAUDE.md:
 
-- Make changes to any `index*.qmd`
+- Make changes to any `index*.qmd` or README.md
 - launch `claude` and write
-  - "sync" to apply the same changes across all available languages.
+  - "sync" to apply the same changes across all available languages
   - "preview" to visualize the website
-- Publish by pushing to `main`.
+- Publish via a commit to `main` (e.g. via a PR)
 
 ---
 
