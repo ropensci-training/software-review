@@ -6,7 +6,7 @@ author: Mauro Lepore
 
 # Workshop Introduction
 
-About [you](https://ropensci.org/es/champions/) 🏅🇪🇸 and about [me](https://ropensci.org/author/mauro-lepore/) 👋.
+About [you](https://ropensci.org/champions/) 🏅🌐 and about [me](https://ropensci.org/author/mauro-lepore/) 👋.
 
 <sub>
 License: [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
@@ -39,7 +39,7 @@ Day 2
 
 # End-to-end Process Introduction
 
-About how we work with [software](https://devguide.ropensci.org/es/index.es.html) and [people](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+About how we work with [software](https://devguide.ropensci.org/index.html) and [people](https://ropensci.org/code-of-conduct/)
 
 ## Comparison with Academia
 
@@ -83,7 +83,7 @@ flowchart LR
 [Example](https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055)
 
 :::aside
-[Bot commands](https://devguide.ropensci.org/es/bot_cheatsheet.es.html)
+[Bot commands](https://devguide.ropensci.org/bot_cheatsheet.html)
 :::
 
 ## {pkgcheck}: Local Usage
@@ -119,7 +119,7 @@ Example
 - We do not tolerate any form of harassment
 
 :::aside
-[Code of Conduct](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+[Code of Conduct](https://ropensci.org/code-of-conduct/)
 :::
 
 ## Kind and Constructive Communication
@@ -173,7 +173,7 @@ Explain how and why the package fits into these categories.
 </details>
 
 <sub>
-[Responding to out-of-scope submissions](https://devdevguide.netlify.app/es/softwarereview_editor.es#outofscoperesponse)
+[Responding to out-of-scope submissions](https://devdevguide.netlify.app/softwarereview_editor#outofscoperesponse)
 </sub>
 
 # Break 10'
@@ -483,7 +483,7 @@ Suggestion/Decision
 </details>
 
 <sub>
-[Responding to reviewer questions](https://devdevguide.netlify.app/es/softwarereview_editor.es#reviewersupport)
+[Responding to reviewer questions](https://devdevguide.netlify.app/softwarereview_editor#reviewersupport)
 </sub>
 
 # Questions
@@ -491,7 +491,7 @@ Suggestion/Decision
 # Thank You!
 
 Want to review a package?
-[Volunteer here](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
+[Volunteer here](https://devdevguide.netlify.app/softwarereview_reviewer#volunteering-as-a-reviewer)
 
 # Resources
 
@@ -502,24 +502,24 @@ Workshop
 
 Communication
 
-- [Code of Conduct](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+- [Code of Conduct](https://ropensci.org/code-of-conduct/)
 
 Review
 
 - [Propose or submit software for review](https://github.com/ropensci/software-review/issues/new/choose)
-- [Dev Guide](https://devdevguide.netlify.app/es/index.es)
-  - [Package categories](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
-  - [For package authors](https://devdevguide.netlify.app/es/softwarereview_author.es)
-  - [For reviewers](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
+- [Dev Guide](https://devdevguide.netlify.app/index)
+  - [Package categories](https://devdevguide.netlify.app/softwarereview_policies.html#package-categories)
+  - [For package authors](https://devdevguide.netlify.app/softwarereview_author)
+  - [For reviewers](https://devdevguide.netlify.app/softwarereview_reviewer)
 - [Statistical Software Guide](https://stats-devguide.ropensci.org/)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
-- [Review template](https://devdevguide.netlify.app/es/reviewtemplate.es)
+- [Review template](https://devdevguide.netlify.app/reviewtemplate)
 
 Blogs about the review process
 
-- [Software Review, Perspectives from an Academic](https://ropensci.org/es/blog/2025/03/25/r-package-review/)
-- [First-time Experiences Reviewing rOpenSci Packages](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/)
-- [So You (Don't) Think You Can Review a Package](https://ropensci.org/es/blog/2017/08/22/first-package-review/)
+- [Software Review, Perspectives from an Academic](https://ropensci.org/blog/2025/03/25/r-package-review/)
+- [First-time Experiences Reviewing rOpenSci Packages](https://ropensci.org/blog/2017/09/08/first-review-experiences/)
+- [So You (Don't) Think You Can Review a Package](https://ropensci.org/blog/2017/08/22/first-package-review/)
 
 Champion packages in Spanish
 
@@ -527,4 +527,4 @@ Champion packages in Spanish
 - [agroclimatico](https://github.com/ropensci/software-review/issues/599)
 - [karel](https://github.com/ropensci/software-review/issues/620)
 
-[Volunteer as a reviewer](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
+[Volunteer as a reviewer](https://devdevguide.netlify.app/softwarereview_reviewer#volunteering-as-a-reviewer)
