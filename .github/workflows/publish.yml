@@ -28,11 +28,10 @@ jobs:
         with:
           use-public-rspm: true
 
-      - name: Install R dependencies
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::babelquarto
+      - name: Install babelquarto
+        run: |
+          install.packages('babelquarto', repos = c('https://ropensci-review-tools.r-universe.dev', 'https://cloud.r-project.org'))
+        shell: Rscript {0}
 
       - name: Render multilingual website
         run: Rscript -e 'babelquarto::render_website(site_url="https://ropensci-training.github.io/software-review")'
