@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+    - "!LICENSE.md"
+    - "!README.md"
+
+website:
+  title: "Taller de revisión de software por pares de rOpenSci"
+  site-url: https://ropensci-training.github.io/software-review/
+  favicon: favicon.png
+  navbar:
+    left: []
+    right:
+      - icon: github
+        href: https://github.com/ropensci-training/software-review/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: left
+
+babelquarto:
+  languagecodes:
+  - name: en
+    text: "English"
+  - name: es
+    text: "Español"
+  mainlanguage: 'es'
+  languages: ['en']
+  languagelinks: navbar
+title-en: rOpenSci Software Peer Review Workshop
+description-en: Workshop on software peer review
+author-en: Mauro Lepore
+lang: es
+

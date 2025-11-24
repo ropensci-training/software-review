@@ -4,5 +4,7 @@
 *.html
 *yani*
 
+!docs/**
+
 
 /.quarto/

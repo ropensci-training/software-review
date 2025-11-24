@@ -1,0 +1,573 @@
+---
+title: rOpenSci Peer Software Review Workshop
+date: 2025-11-18
+author: Mauro Lepore
+---
+
+# Workshop Introduction
+
+About [you](https://ropensci.org/es/champions/) 🏅🇪🇸 and about [me](https://ropensci.org/author/mauro-lepore/) 👋.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<sub>
+License: [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
+</sub>
+
+## Main Objectives
+
+<br>
+
+Day 1
+
+- Familiarize yourself with the stages and qualities of the process
+- Practice proposing software for review
+
+Day 2
+
+- Practice submitting software for review
+
+## Day 1 Plan
+
+Workshop introduction
+
+<details><summary>End-to-end process introduction</summary>
+- Comparison with academia
+- Proposing and submitting software for review
+- {pkgcheck}
+- Code of conduct and communication
+</details>
+
+Break
+
+<details><summary>Proposing software for review</summary>
+- Opening an issue
+- Kind and constructive communication
+</details>
+
+Questions and answers
+
+# End-to-end Process Introduction
+
+About how we work with [software](https://devguide.ropensci.org/es/index.es.html) and [people](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+
+## Comparison with Academia
+
+<br>
+
+In academia and at rOpenSci:
+
+- What is the motivation of an author or reviewer?
+- What other roles participate?
+- When is work accepted or rejected?
+- On what platform are comments exchanged?
+- What kind of communication is expected?
+
+## [Proposing Software for Review](https://github.com/ropensci/software-review/issues)
+
+```{mermaid}
+flowchart LR
+    B((1-Open issue))
+    B --> C{2-In scope?}
+    C -->|No| E{3-Exception?}
+    C -->|Yes| D[4-Submit]
+    E -->|Yes| D
+    E -->|No| G((5-Close issue))
+```
+
+## [Submitting Software for Review](https://github.com/ropensci/software-review/issues)
+
+```{mermaid}
+flowchart LR
+    B((1-Open issue))
+    B --> C[2-Review]
+    C --> D{3-Ready?}
+    D -->|No| C
+    D -->|Yes| E((Publish))
+```
+
+## {pkgcheck}: Usage in an Issue
+
+<br>
+
+```r
+@ropensci-review-bot check package
+```
+
+<br>
+
+[Example](https://github.com/ropensci/software-review/issues/593#issuecomment-1608404055)
+
+:::aside
+[Bot commands](https://devguide.ropensci.org/es/bot_cheatsheet.es.html)
+:::
+
+## {pkgcheck}: Local Usage
+
+Installation
+
+```r
+  options (repos = c (
+    ropenscireviewtools = "https://ropensci-review-tools.r-universe.dev",
+    CRAN = "https://cloud.r-project.org"
+  ))
+  install.packages("pkgcheck")
+```
+
+<br>
+
+Example
+
+```r
+  package <- "/path/to/package"
+  results <- pkgcheck::pkgcheck(package)
+  results
+
+  summary(results)
+```
+
+:::aside
+[{pkgcheck} documentation](https://docs.ropensci.org/pkgcheck/)
+:::
+
+## Code of Conduct
+
+- Our community is our greatest asset
+- Our diversity is our strength
+- We do not tolerate any form of harassment
+
+:::aside
+[Code of Conduct](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+:::
+
+## Kind and Constructive Communication
+
+<br>
+
+Offer
+
+- Safety
+- Suggestion/Decision
+- Follow-up
+
+::: aside
+[How to Win Friends and Influence People](https://www.amazon.com/-/es/influir-personas-Friends-Influence-Spanish/dp/164473009X)
+[Crucial Conversations: Tools for Talking When Stakes Are High](https://www.amazon.com/Conversaciones-Cruciales-Edici%C3%B3n-revisada-conocimiento-ebook/dp/B01EX1TZQG/ref=sr_1_1?adgrpid=167955646707&dib=eyJ2IjoiMSJ9.Ws1WzIBF0cC2Dm2-H47hguDVuXRPmMy9rZLGRYA4t3ER8EP9QL1L1dPW8a2l0c2aI65gElZhBVvYTfIcqtuaBVQcnOAmIBffgVzFQKm44rUISeaXgEIVBBw4-muztHHDiwE9jwRJSFYtSDFMAq4h9Rvb-GvpCxfZNzbfBApAjBAXNIQ63XVjTnFrOly1C-YCBSC8uEVyOljvl5CfMMfShGRKX-fYLjSLXyU0CJW-xuk.LRH-a9xfbt1VH_6O1wTX-6nxoUp_g1gSKmBPfElISuA&dib_tag=se&hvadid=730129623296&hvdev=c&hvlocphy=9070297&hvnetw=g&hvqmt=e&hvrand=357311298508997420&hvtargid=kwd-319512755646&hydadcr=23800_13790585&keywords=conversaciones+cruciales&mcid=bd94c27aa7253eda9e137472f79bfcd2&qid=1763123775&sr=8-1)
+:::
+
+## Kind and Constructive Communication
+
+Explain how and why the package fits into these categories.
+
+> `@author`: I couldn't find a category that fit perfectly, so I created a new category.
+
+<br>
+
+**On a scale of 1 to 10, how many points would you give each response?**
+
+<details><summary>Response 1</summary>
+
+`@editor`:
+
+> @author,
+> Unfortunately our categories are pre-defined. We hope to expand them gradually, but we cannot accommodate individual packages.
+
+</details>
+
+<details><summary>Response 2</summary>
+
+`@editor`:
+
+> @author, thank you for your inquiry. The package looks very interesting but unfortunately it's outside the scope of rOpenSci's current categories. Our categories are pre-defined. We hope to expand them gradually, but we cannot accommodate individual packages.
+
+</details>
+
+<details><summary>Response 3</summary>
+
+`@editor`:
+
+> @author, thank you for your inquiry. The package looks very interesting but unfortunately it's outside the scope of rOpenSci's current categories. Our categories are pre-defined. We hope to expand them gradually, but we cannot accommodate individual packages.
+
+> I would recommend reviewing and publishing the package in the [Journal of Open Source Software](https://joss.theoj.org/).
+
+> I hope we can work with you on another package soon.
+
+</details>
+
+<sub>
+[Responding to out-of-scope submissions](https://devdevguide.netlify.app/es/softwarereview_editor.es#outofscoperesponse)
+</sub>
+
+# Break 10'
+
+# Proposing Software for Review
+
+## Opening an Issue
+
+<br>
+
+Open an issue to propose software for review in the [practice repository](https://github.com/ropensci-training/software-review/issues)
+
+<br>
+
+Use your own package or any of these:
+
+- [{agroclimatico}](https://github.com/ropensci/software-review/issues/599): Climate and Hydrological Indices and Statistics
+- [{eph}](https://github.com/ropensci/software-review/issues/593): Permanent Household Survey of Argentina
+- [{karel}](https://github.com/ropensci/software-review/issues/620): Learning Programming in R
+
+## Kind and Constructive Communication
+
+<br>
+
+- [{karel}](https://docs.ropensci.org/karel/) is outside the scope of rOpenSci categories ([it was reviewed](https://github.com/ropensci/software-review/issues/620) as an exception through the champions program)
+
+- Assume the role of editor
+
+- Write a kind and constructive comment, notifying the author that the package is outside the scope of rOpenSci
+
+- Recommend reviewing and publishing it in the ["Journal of Open Source Education"](http://jose.theoj.org/)
+
+# Questions and Answers
+
+<br>
+
+- Generate questions about the process of proposing software for review. For inspiration you can explore:
+
+  - [the actual software review submission template](https://github.com/ropensci/software-review/issues)
+  -  [actual issues tagged with 0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
+
+- Vote with `+` on 3 questions from other people
+
+- Answers
+
+# Day 2 Introduction
+
+What did we see on day 1? What are we going to see today?
+
+## Day 2 Plan
+
+* Review
+* Preparing a package
+* Break
+* Reviewing a package
+* Responding to a review
+* Questions and answers
+
+## Review: Proposing Software
+
+The [karel](https://github.com/ropensci/software-review/issues/620) package teaches programming. Its objective is outside the scope of rOpenSci. It was proposed for review in 2023, during the champions program.
+
+Was it correct for it to have been reviewed at rOpenSci?
+
+1. No because it doesn't fit the scope
+1. Yes because although it doesn't fit the scope it's an exception
+1. Yes because rOpenSci doesn't reject packages
+
+<details><summary>[Proposing software for review](https://github.com/ropensci/software-review/issues)</summary>
+
+```{mermaid}
+flowchart LR
+    B((1-Open issue))
+    B --> C{2-In scope?}
+    C -->|No| E{3-Exception?}
+    C -->|Yes| D[4-Submit]
+    E -->|Yes| D
+    E -->|No| G((5-Close issue))
+```
+
+</details>
+
+## Review: Communication
+
+Why do we prefer the second response?
+
+1. Actually we prefer the first one because it communicates the same decision but is shorter.
+1. Because it's more politically correct.
+1. Because it demonstrates that rOpenSci is a safe space to make inquiries, suggests an alternative forum, and invites future contributions.
+
+<details><summary>Response 1</summary>
+
+> @author,
+> Unfortunately this package is outside rOpenSci's current scope.
+</details>
+
+<details><summary>Response 2</summary>
+
+> @author,
+> Thank you for your inquiry. Your package looks very interesting, but unfortunately it doesn't seem to fit rOpenSci's current categories.
+> I would recommend publishing it in the [Journal of Open Source Software](https://joss.theoj.org/). And if you have another package or want to [explore how to contribute in other ways](https://contributing.ropensci.org/), we'll be happy to guide you.
+
+</details>
+
+# Submitting Software for Review
+
+## Preparing a Package
+
+Generate, interpret, and respond to [{pkgcheck}](https://docs.ropensci.org/pkgcheck/) results
+
+<details><summary>Installation</summary>
+
+```r
+  options (repos = c (
+    ropenscireviewtools = "https://ropensci-review-tools.r-universe.dev",
+    CRAN = "https://cloud.r-project.org"
+  ))
+  install.packages("pkgcheck")
+```
+
+</details>
+
+Use any package, e.g. [{saperlipopette}](https://github.com/ropensci-training/saperlipopette)
+
+<details><summary>Clone it</summary>
+
+```bash
+git clone https://github.com/ropensci-training/saperlipopette
+cd saperlipopette
+```
+
+</details>
+
+```r
+# pak::pak()
+out <- pkgcheck::pkgcheck("saperlipopette")
+summary(out)
+
+out
+```
+
+<br>
+
+<details><summary>Answers</summary>
+
+<br>
+
+```r
+# install.packages("codemetar")
+# install.packages("usethis")
+
+# Has a 'codemeta.json' file
+codemetar::write_codemeta()
+
+# Has a 'contributing' file
+usethis::use_tidy_contributing()
+
+# Package has at least one HTML vignette
+usethis::use_article("saperlipopette")
+
+# All functions have examples
+#' @examples
+#' path <- withr::local_tempdir()
+#' create_all_exercises(path)
+
+# R CMD check found 1 error
+usethis::use_package("parserdate")
+```
+
+</details>
+
+## Reviewing a Package
+
+<!--
+- Write a header
+- Complete a part of the review-template
+- Write a comment offering a suggestion for change
+
+Communication
+- we saw: safety, suggestion, follow-up
+now:
+- kind
+- actionable
+- reasonable
+- specific
+- justifiable
+- standard
+- automatic
+- common, popular, accepted by the community, best practices
+- aligned with the shared goal
+-->
+
+Propose (only) one improvement. Use the [review template](https://github.com/ropensci-training/software-review/blob/dia2/templates/es/revision.md).
+
+<br>
+
+You can use your package or any of these -- **before the review**:
+
+<details><summary>[{agroclimatico}](https://github.com/ropensci/agroclimatico): Climate and Hydrological Indices and Statistics</summary>
+
+```bash
+git clone https://github.com/ropensci/agroclimatico
+cd agroclimatico
+git checkout -b antes d537dd20
+```
+
+</details>
+
+<details><summary>[{eph}](https://github.com/ropensci/eph): Permanent Household Survey of Argentina</summary>
+
+```bash
+git clone https://github.com/ropensci/eph
+cd eph
+git checkout -b antes 707cd24c
+```
+
+</details>
+
+<details><summary>[{karel}](https://github.com/ropensci/karel): Learning Programming in R</summary>
+
+```bash
+git clone https://github.com/ropensci/karel
+cd karel
+git checkout -b antes 4b057e67
+```
+
+</details>
+
+<details><summary>Examples</summary>
+
+{eph}: Use an automatic code formatter ([review](https://github.com/ropensci/software-review/issues/593#issuecomment-1624466962) - [commit](https://github.com/ropensci/eph/commit/eca3401fb59ad9d9cdb14abcea7b96565fff6161)).
+
+![](examples/es/593_eph/style_else_review.png)
+
+![](examples/es/593_eph/style_else_diff.png)
+
+{eph}: Show the output of examples in README ([review](https://github.com/ropensci/software-review/issues/593#issuecomment-1624466962) - [commit](https://github.com/ropensci/eph/commit/322d7003fccdf06e68e03cc4aa0a034fda3a4721)).
+
+> In the "Usage" section, please show the results so they can be seen without needing to install the package and run the code.
+
+![](examples/es/593_eph/readme_examples_diff.png)
+
+{agroclimatico}: Rename functions ([review](https://github.com/ropensci/software-review/issues/599#issuecomment-1704935695) - [commit](https://github.com/ropensci/agroclimatico/commit/8b64da7f0c41ef1d87a621d2c506f7af75adeb79)).
+
+> a slight name change could be considered to avoid confusion
+
+![](examples/es/599_agroclimatico/api_rename_diff.png)
+
+{agroclimatico}: Group functions ([review](https://github.com/ropensci/software-review/issues/599#issuecomment-1941871544) - [commit](https://github.com/ropensci/agroclimatico/commit/d9473)).
+
+> A suggestion to make the overall functionality of the package clearer is to group the functions in the index by topic.
+
+![](examples/es/599_agroclimatico/reference_group_diff.png)
+
+{karel}: Express the package's need in README ([review](https://github.com/ropensci/software-review/issues/620#issuecomment-2033093650) - [commit](https://github.com/ropensci/karel/commit/d07dfcbaebdb15c85068264e7fda4c534a2c456a)).
+
+> Add statement of need. The `Who is Karel?` section of the README hints at the need but does not describe it explicitly.
+
+![](examples/es/620_karel/readme_need_diff.png)
+
+</details>
+
+## Responding to a Review
+
+<!--
+I don't think there will be time for a "hands-on" activity.
+
+Ideas depending on available time:
+- Less: just show the examples and reflect on why they're good
+- Medium: show the examples and ask them to write why they're good
+- Medium: show the examples and ask them to discuss why they're good
+- More: show the examples and ask for reflection
+
+-->
+
+Combines skills we already practiced.
+
+<br>
+
+Examples of review and response in {agroclimatico}
+
+<details><summary>[Review by `@VeruGHub` (reviewer)](https://github.com/ropensci/software-review/issues/599#issuecomment-1936698026)</summary>
+
+Safety
+
+> First of all, I want to thank you for the opportunity to review this package and I hope the comments help improve the aspects the authors consider appropriate.
+
+Suggestion/Decision
+
+> I think some formal aspects of the documentation can be improved. To begin with, the package's functionality is not completely defined in the documentation (Readme) ... Improving these descriptions and including defensive programming related to the arguments (generally missing) would help users a lot.
+
+</details>
+
+<details><summary>[Response by `@paocorrales` (author)](https://github.com/ropensci/software-review/issues/599#issuecomment-2143389578)</summary>
+
+Safety
+
+> First of all, thank you very much @pmnatural and @VeruGHub for the review and comments.
+
+Suggestion/Decision
+
+> I incorporated the comments and suggestions into the package.
+
+Follow-up
+
+> I hope I didn't forget anything, I await your comments!
+
+</details>
+
+Example of pushback on a suggestion in {eph}
+
+<details><summary>[Response by `@caropradier` (author)](https://github.com/ropensci/software-review/issues/593#issuecomment-1714421144)</summary>
+
+Safety
+
+> @lidefi87 thank you again for your efforts!
+
+Suggestion/Decision
+
+> Regarding the function names, I would try not to make major modifications so as not to disrupt the workflow of our current users (approximately 30 thousand people use the package and I would like to avoid causing them inconvenience if it's not something fundamental for the package's functionality). However, I agree that it's a good practice, and I'll keep it in mind when adding new functions.
+
+</details>
+
+<sub>
+[Responding to reviewer questions](https://devdevguide.netlify.app/es/softwarereview_editor.es#reviewersupport)
+</sub>
+
+# Questions
+
+# Thank You!
+
+Want to review a package?
+[Volunteer here](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
+
+# Resources
+
+Workshop
+
+- <https://github.com/ropensci-training/software-review>
+- [Collaborative document](https://docs.google.com/document/d/14vpj_nzMyiP0H8YqSgFgfhZ99w9tIFAELRkEvBTINOo/edit?tab=t.0#heading=h.igss5ybwaspx)
+
+Communication
+
+- [Code of Conduct](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+
+Review
+
+- [Propose or submit software for review](https://github.com/ropensci/software-review/issues/new/choose)
+- [Dev Guide](https://devdevguide.netlify.app/es/index.es)
+  - [Package categories](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
+  - [For package authors](https://devdevguide.netlify.app/es/softwarereview_author.es)
+  - [For reviewers](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
+- [Statistical Software Guide](https://stats-devguide.ropensci.org/)
+- [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+- [Review template](https://devdevguide.netlify.app/es/reviewtemplate.es)
+
+Blogs about the review process
+
+- [Software Review, Perspectives from an Academic](https://ropensci.org/es/blog/2025/03/25/r-package-review/)
+- [First-time Experiences Reviewing rOpenSci Packages](https://ropensci.org/es/blog/2017/09/08/first-review-experiences/)
+- [So You (Don't) Think You Can Review a Package](https://ropensci.org/es/blog/2017/08/22/first-package-review/)
+
+Champion packages in Spanish
+
+- [eph](https://github.com/ropensci/software-review/issues/593)
+- [agroclimatico](https://github.com/ropensci/software-review/issues/599)
+- [karel](https://github.com/ropensci/software-review/issues/620)
+
+[Volunteer as a reviewer](https://devdevguide.netlify.app/es/softwarereview_reviewer.es#volunteering-as-a-reviewer)
