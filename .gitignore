@@ -1,9 +1,5 @@
 .Rproj.user
-*.js
-*_files/*
-*.html
-*yani*
-
 _site/
-
 /.quarto/
+!CLAUDE.md
+
