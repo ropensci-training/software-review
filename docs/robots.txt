@@ -1,1 +1,0 @@
-Sitemap: https://ropensci-training.github.io/software-review/sitemap.xml

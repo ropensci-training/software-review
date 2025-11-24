@@ -1,6 +1,0 @@
-/* Move language switcher closer to the right */
-.navbar-nav.me-auto:has(#languages-links-parent) {
-  flex-grow: 1 !important;
-  justify-content: flex-end !important;
-  padding-right: 1rem !important;
-}
