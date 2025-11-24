@@ -266,8 +266,8 @@ flowchart LR
 <details><summary>Respuesta 2</summary>
 
 > @autor/a,
-> Gracias por tu consulta. Tu paquete se ve muy interesante, pero lamentablemente parece no encajar en las categorías actuales de rOpenSci.  
-> Te recomendaría publicarlo en el [Journal of Open Source Software](https://joss.theoj.org/). Y si tenés otro paquete o querés [explorar cómo contribuir de otra forma](https://contributing.ropensci.org/), será un gusto guiarte.
+> Gracias por tu consulta. Tu paquete se ve muy interesante, pero lamentablemente parece no encajar en las categorías actuales de rOpenSci.
+> Te recomendaría publicarlo en el [Journal of Open Source Software](https://joss.theoj.org/), el [r-multiverse](https://r-multiverse.org/overview.html) u [otros repositorios](https://r-multiverse.org/overview.html#other-repositories). Y si tenés otro paquete o querés [explorar cómo contribuir de otra forma](https://contributing.ropensci.org/), será un gusto guiarte.
 
 </details>
 
