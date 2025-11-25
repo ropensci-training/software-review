@@ -1,5 +1,5 @@
 ---
-title: rOpenSci Peer Software Review Workshop
+title: rOpenSci Software Peer Review Workshop
 date: 2025-11-25
 author: Mauro Lepore
 ---
@@ -37,7 +37,7 @@ Day 2
   - Kind and constructive communication
 * Questions and answers
 
-# End-to-end Process Introduction
+# Review Process Overview
 
 About how we work with [software](https://devguide.ropensci.org/index.html) and [people](https://ropensci.org/code-of-conduct/)
 
@@ -187,8 +187,8 @@ Open an issue to propose software for review in the [practice repository](https:
 Use your own package or any of these:
 
 - [{agroclimatico}](https://github.com/ropensci/software-review/issues/599): Climate and Hydrological Indices and Statistics
-- [{eph}](https://github.com/ropensci/software-review/issues/593): Permanent Household Survey of Argentina
-- [{karel}](https://github.com/ropensci/software-review/issues/620): Learning Programming in R
+- [{eph}](https://github.com/ropensci/software-review/issues/593): Argentina's Permanent Household Survey Data and Manipulation Utilities
+- [{karel}](https://github.com/ropensci/software-review/issues/620): Learning programming with Karel the robot
 
 ## Kind and Constructive Communication
 
@@ -350,7 +350,7 @@ git checkout -b antes d537dd20
 
 </details>
 
-<details><summary>[{eph}](https://github.com/ropensci/eph): Permanent Household Survey of Argentina</summary>
+<details><summary>[{eph}](https://github.com/ropensci/eph): Argentina's Permanent Household Survey Data and Manipulation Utilities</summary>
 
 ```bash
 git clone https://github.com/ropensci/eph
@@ -360,7 +360,7 @@ git checkout -b antes 707cd24c
 
 </details>
 
-<details><summary>[{karel}](https://github.com/ropensci/karel): Learning Programming in R</summary>
+<details><summary>[{karel}](https://github.com/ropensci/karel): Learning programming with Karel the robot</summary>
 
 ```bash
 git clone https://github.com/ropensci/karel
@@ -453,7 +453,7 @@ Suggestion/Decision
 </details>
 
 <sub>
-[Responding to reviewer questions](https://devdevguide.netlify.app/softwarereview_editor#reviewersupport)
+[Answering reviewers' questions](https://devdevguide.netlify.app/softwarereview_editor#reviewersupport)
 </sub>
 
 # Questions
@@ -479,8 +479,8 @@ Review
 - [Propose or submit software for review](https://github.com/ropensci/software-review/issues/new/choose)
 - [Dev Guide](https://devdevguide.netlify.app/index)
   - [Package categories](https://devdevguide.netlify.app/softwarereview_policies.html#package-categories)
-  - [For package authors](https://devdevguide.netlify.app/softwarereview_author)
-  - [For reviewers](https://devdevguide.netlify.app/softwarereview_reviewer)
+  - [Guide for Authors](https://devdevguide.netlify.app/softwarereview_author)
+  - [Guide for Reviewers](https://devdevguide.netlify.app/softwarereview_reviewer)
 - [Statistical Software Guide](https://stats-devguide.ropensci.org/)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
 - [Review template](https://devdevguide.netlify.app/reviewtemplate)
