@@ -336,25 +336,6 @@ usethis::use_package("parserdate")
 
 ## Reviewing a Package
 
-<!--
-- Write a header
-- Complete a part of the review-template
-- Write a comment offering a suggestion for change
-
-Communication
-- we saw: safety, suggestion, follow-up
-now:
-- kind
-- actionable
-- reasonable
-- specific
-- justifiable
-- standard
-- automatic
-- common, popular, accepted by the community, best practices
-- aligned with the shared goal
--->
-
 Propose (only) one improvement. Use the [review template](https://github.com/ropensci-training/software-review/blob/main/templates/en/review.md).
 
 You can use your package or any of these -- **before the review**:
@@ -424,17 +405,6 @@ git checkout -b antes 4b057e67
 </details>
 
 ## Responding to a Review
-
-<!--
-I don't think there will be time for a "hands-on" activity.
-
-Ideas depending on available time:
-- Less: just show the examples and reflect on why they're good
-- Medium: show the examples and ask them to write why they're good
-- Medium: show the examples and ask them to discuss why they're good
-- More: show the examples and ask for reflection
-
--->
 
 Combines skills we already practiced.
 

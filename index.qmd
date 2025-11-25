@@ -336,25 +336,6 @@ usethis::use_package("parserdate")
 
 ## Revisar un paquete
 
-<!--
-- Escribir un encabezado
-- Completar una parte del review-template
-- Escribir un comentario ofreciendo una sugerencia de cambio
-
-Comunicación
-- vimos: seguridad, sugerencia, seguimiento
-ahora:
-- amable
-- accionable
-- razonable
-- específica
-- justificable
-- estándar
-- automática
-- común, popular, aceptada por la comunidad, buenas prácticas
-- alineada con la meta compartida
--->
-
 Propone (solo) una mejora. Usa la [plantilla de revisión](https://github.com/ropensci-training/software-review/blob/main/templates/es/revision.md).
 
 Podés usar tu paquete o alguno de estos -- **antes de la revisión**:
@@ -424,17 +405,6 @@ git checkout -b antes 4b057e67
 </details>
 
 ## Responder a una revisión
-
-<!-- 
-Creo que no va a haber tiempo para una actividad "hands-on".
-
-Ideas segun en tiempo disponible:
-- Menos: solo mostrar los ejemplos y reflexionar por que son buenos
-- Medio: mostrar los ejemplos y pedir que escriban por que son buenos
-- Medio: mostrar los ejemplos y pedir que discutan por que son buenos
-- Mas: mostrar los ejemplos y pedir reflection
-
--->
 
 Combina habilidades que ya practicamos.
 
