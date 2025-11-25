@@ -355,7 +355,7 @@ now:
 - aligned with the shared goal
 -->
 
-Propose (only) one improvement. Use the [review template](https://github.com/ropensci-training/software-review/blob/dia2/templates/es/revision.md).
+Propose (only) one improvement. Use the [review template](https://github.com/ropensci-training/software-review/blob/main/templates/en/review.md).
 
 You can use your package or any of these -- **before the review**:
 

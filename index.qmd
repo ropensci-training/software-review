@@ -355,7 +355,7 @@ ahora:
 - alineada con la meta compartida
 -->
 
-Propone (solo) una mejora. Usa la [plantilla de revisión](https://github.com/ropensci-training/software-review/blob/dia2/templates/es/revision.md).
+Propone (solo) una mejora. Usa la [plantilla de revisión](https://github.com/ropensci-training/software-review/blob/main/templates/es/revision.md).
 
 Podés usar tu paquete o alguno de estos -- **antes de la revisión**:
 
