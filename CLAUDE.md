@@ -5,11 +5,7 @@ This is a multilingual website built with babelquarto.
 # Workflow
 
 - The user changes some index*.qmd file
-- Preview the effect:
-    - Render: Rscript -e "babelquarto::render_website()"
-    - Serve: Rscript -e "servr::httw('docs')"
-    - Browse: (e.g. on mac) open [URL from the previous command]
-
+- Preview the effect: .claude/commands/preview-website.md
 - Sync content across langages: .claude/commands/sync-languages.md
 - Publish: Commits to `main` publish via .github/workflows/publish.yml (e.g. when merging a PR).
 
