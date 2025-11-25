@@ -10,7 +10,7 @@ This is a multilingual website built with babelquarto.
     - Serve: Rscript -e "servr::httw('docs')"
     - Browse: (e.g. on mac) open [URL from the previous command]
 
-- Sync content across langages: see ai/sync-languages.md
+- Sync content across langages: .claude/commands/sync-languages.md
 - Publish: Commits to `main` publish via .github/workflows/publish.yml (e.g. when merging a PR).
 
 # To memorize

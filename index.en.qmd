@@ -308,7 +308,7 @@ summary(out)
 out
 ```
 
-<details><summary>Answers</summary>
+<details><summary>Improvements</summary>
 
 ```r
 # install.packages("codemetar")
