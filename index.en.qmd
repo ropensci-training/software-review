@@ -1,6 +1,6 @@
 ---
 title: rOpenSci Peer Software Review Workshop
-date: 2025-11-18
+date: 2025-11-25
 author: Mauro Lepore
 ---
 

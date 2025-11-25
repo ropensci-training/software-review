@@ -1,6 +1,6 @@
 ---
 title: Taller de revisión de software por pares de rOpenSci
-date: 2025-11-18
+date: 2025-11-25
 author: Mauro Lepore
 ---
 
