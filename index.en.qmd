@@ -374,7 +374,7 @@ git checkout -b antes 4b057e67
 
 {eph}: Use an automatic code formatter ([review](https://github.com/ropensci/software-review/issues/593#issuecomment-1624466962) - [commit](https://github.com/ropensci/eph/commit/eca3401fb59ad9d9cdb14abcea7b96565fff6161)).
 
-![](examples/es/593_eph/style_else_review.png)
+> Please use an automatic code formatter (e.g., `usethis::use_tidy_style()`). It's useful to see that the style is consistent and follows a popular style guide like the "tidyverse style guide" (https://style.tidyverse.org/). This helps avoid thinking about style and saves mental energy for noticing more important things. Here are some examples of style violations:
 
 ![](examples/es/593_eph/style_else_diff.png)
 
@@ -400,7 +400,7 @@ git checkout -b antes 4b057e67
 
 > Add statement of need. The `Who is Karel?` section of the README hints at the need but does not describe it explicitly.
 
-![](examples/es/620_karel/readme_need_diff.png)
+![](examples/es/620_karel/readme_need_diff-en.png)
 
 </details>
 
