@@ -321,10 +321,12 @@ usethis::use_tidy_contributing()
 usethis::use_article("saperlipopette")
 
 # ✖ These functions do not have examples: [create_all_exercises].
-# From https://docs.ropensci.org/saperlipopette/reference/create_all_exercises.html
+# From https://github.com/ropensci-training/saperlipopette/blob/main/R/create-all.R
 #' @examplesIf interactive()
 #' parent_path <- withr::local_tempdir()
 #' path <- create_all_exercises(parent_path = parent_path)
+#
+# devtools::document()
 ```
 
 </details>
