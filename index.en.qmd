@@ -173,7 +173,7 @@ Explain how and why the package fits into these categories.
 </details>
 
 <sub>
-[Responding to out-of-scope submissions](https://devdevguide.netlify.app/softwarereview_editor#outofscoperesponse)
+[Deciding on scope and overlap](https://devdevguide.netlify.app/softwarereview_editor#deciding-on-scope-and-overlap)
 </sub>
 
 # Break 10'

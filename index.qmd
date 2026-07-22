@@ -173,7 +173,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 </details>
 
 <sub>
-[Responder a las presentaciones fuera del ámbito de aplicación](https://devdevguide.netlify.app/es/softwarereview_editor.es#outofscoperesponse)
+[Decidir el alcance y el solapamiento](https://devdevguide.netlify.app/es/softwarereview_editor.es#decidir-el-alcance-y-el-solapamiento)
 </sub>
 
 # Pausa 10'
