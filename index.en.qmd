@@ -465,7 +465,7 @@ Want to review a package?
 Workshop
 
 - <https://github.com/ropensci-training/software-review>
-- [Collaborative document](https://docs.google.com/document/d/14vpj_nzMyiP0H8YqSgFgfhZ99w9tIFAELRkEvBTINOo/edit?tab=t.0#heading=h.igss5ybwaspx)
+- [Collaborative document](https://docs.google.com/document/d/1Af5ZjV8HJNVeTtGLBKOHkyQISand6-E3HLtI9qa-od8/edit?tab=t.0)
 
 Communication
 
