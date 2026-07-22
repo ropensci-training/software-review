@@ -6,7 +6,7 @@ Repositorio para aprender sobre el proceso de [revisión de software por pares d
 
 ## Contribuciones
 
-El workflow esta explicado en CLAUDE.md:
+El workflow esta explicado en CLAUDE.md (podes renombrarlo, e.g. `mv CLAUDE.md GEMINI.md`):
 
 - Hace cambios en cualquier `index*.qmd` o README.md
 - indiciar `claude` y escribi
@@ -26,7 +26,7 @@ Repository to learn about rOpenSci's [peer software review](https://ropensci.org
 
 ## Contributions
 
-The workflow is explained in CLAUDE.md:
+The workflow is explained in CLAUDE.md (you may rename it, e.g. `mv CLAUDE.md GEMINI.md`):
 
 - Make changes to any `index*.qmd` or README.md
 - launch `claude` and write
