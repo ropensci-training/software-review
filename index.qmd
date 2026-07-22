@@ -63,7 +63,7 @@ flowchart LR
     E -->|No| G((5-Cerrar issue))
 ```
 
-## [Enviar software para revisión](https://github.com/ropensci/software-review/issues)
+## [Enviar software para revisión](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20-label%3A0%2Fpresubmission)
 
 ```{mermaid}
 flowchart LR

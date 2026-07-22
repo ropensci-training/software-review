@@ -51,7 +51,7 @@ In academia and at rOpenSci:
 - On what platform are comments exchanged?
 - What kind of communication is expected?
 
-## [Proposing Software for Review](https://github.com/ropensci/software-review/issues)
+## [Proposing Software for Review](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20label%3A0%2Fpresubmission)
 
 ```{mermaid}
 flowchart LR
