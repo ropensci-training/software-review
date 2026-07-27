@@ -114,12 +114,17 @@ Example
 
 ## Code of Conduct
 
-- Our community is our greatest asset
-- Our diversity is our strength
-- We do not tolerate any form of harassment
+- rOpenSci’s community is our best asset.  
+- We aim for reviews to be  
+  - open, 
+  - non-adversarial, 
+  - and focused on improving software quality.
+- Be respectful and kind.  
 
 :::aside
-[Code of Conduct](https://ropensci.org/code-of-conduct/)
+[Guide for reviewers](https://devguide.ropensci.org/softwarereview_reviewer.html)  
+[Guide for editors](https://devguide.ropensci.org/softwarereview_editor.html)  
+[Code of Conduct](https://ropensci.org/code-of-conduct/)  
 :::
 
 ## Kind and Constructive Communication

@@ -114,12 +114,17 @@ Ejemplo
 
 ## Código de Conducta
 
-- La comunidad es nuestro mejor activo
-- Nuestra diversidad es nuestra fortaleza
-- No toleramos ningún tipo de acoso
+- La comunidad de rOpenSci es lo más importante. 
+- Nuestro objetivo es que las revisiones sean
+  - abiertas, 
+  - no conflictivas,  
+  - y con el objetivo de mejorar la calidad del software.  
+- ¡Sé amable! y comportate con respeto.
 
 :::aside
-[Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
+[Guía para quienes hacen una revisión](https://devguide.ropensci.org/es/softwarereview_reviewer.es.html)  
+[Guía para el equipo editorial](https://devguide.ropensci.org/es/softwarereview_editor.es.html)  
+[Código de Conducta](https://ropensci.org/es/c%C3%B3digo-de-conducta/)  
 :::
 
 ## Comunicación amable y constructiva
