@@ -51,7 +51,7 @@ In academia and at rOpenSci:
 - On what platform are comments exchanged?
 - What kind of communication is expected?
 
-## [Proposing Software for Review](https://github.com/ropensci/software-review/issues)
+## [Proposing Software for Review](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20label%3A0%2Fpresubmission)
 
 ```{mermaid}
 flowchart LR
@@ -173,7 +173,7 @@ Explain how and why the package fits into these categories.
 </details>
 
 <sub>
-[Responding to out-of-scope submissions](https://devdevguide.netlify.app/softwarereview_editor#outofscoperesponse)
+[Deciding on scope and overlap](https://devdevguide.netlify.app/softwarereview_editor#deciding-on-scope-and-overlap)
 </sub>
 
 # Break 10'
@@ -289,13 +289,14 @@ Generate, interpret, and respond to [{pkgcheck}](https://docs.ropensci.org/pkgch
 
 </details>
 
-Use any package, e.g. [{saperlipopette}](https://github.com/ropensci-training/saperlipopette)
+Use any package, e.g. [{saperlipopette v0.1.0}](https://github.com/ropensci-training/saperlipopette)
 
-<details><summary>Clone it</summary>
+<details><summary>Clone it and checkout v0.1.0</summary>
 
 ```bash
 git clone https://github.com/ropensci-training/saperlipopette
 cd saperlipopette
+git checkout v0.1.0
 ```
 
 </details>
@@ -311,25 +312,21 @@ out
 <details><summary>Improvements</summary>
 
 ```r
-# install.packages("codemetar")
 # install.packages("usethis")
 
-# Has a 'codemeta.json' file
-codemetar::write_codemeta()
-
-# Has a 'contributing' file
+# ✖ does not have a 'contributing' file.
 usethis::use_tidy_contributing()
 
-# Package has at least one HTML vignette
+# ✖ Package has no HTML vignettes
 usethis::use_article("saperlipopette")
 
-# All functions have examples
-#' @examples
-#' path <- withr::local_tempdir()
-#' create_all_exercises(path)
-
-# R CMD check found 1 error
-usethis::use_package("parserdate")
+# ✖ These functions do not have examples: [create_all_exercises].
+# From https://github.com/ropensci-training/saperlipopette/blob/main/R/create-all.R
+#' @examplesIf interactive()
+#' parent_path <- withr::local_tempdir()
+#' path <- create_all_exercises(parent_path = parent_path)
+#
+# devtools::document()
 ```
 
 </details>
@@ -468,7 +465,7 @@ Want to review a package?
 Workshop
 
 - <https://github.com/ropensci-training/software-review>
-- [Collaborative document](https://docs.google.com/document/d/14vpj_nzMyiP0H8YqSgFgfhZ99w9tIFAELRkEvBTINOo/edit?tab=t.0#heading=h.igss5ybwaspx)
+- [Collaborative document](https://docs.google.com/document/d/1Af5ZjV8HJNVeTtGLBKOHkyQISand6-E3HLtI9qa-od8/edit?tab=t.0)
 
 Communication
 

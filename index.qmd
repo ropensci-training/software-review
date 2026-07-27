@@ -51,7 +51,7 @@ En la academia y en rOpenSci:
 - ¿En qué plataforma se intercambian comentarios?
 - ¿Cómo es la comunicación esperada?
 
-## [Proponer software para revisión](https://github.com/ropensci/software-review/issues)
+## [Proponer software para revisión](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20label%3A0%2Fpresubmission)
 
 ```{mermaid}
 flowchart LR
@@ -63,7 +63,7 @@ flowchart LR
     E -->|No| G((5-Cerrar issue))
 ```
 
-## [Enviar software para revisión](https://github.com/ropensci/software-review/issues)
+## [Enviar software para revisión](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20-label%3A0%2Fpresubmission)
 
 ```{mermaid}
 flowchart LR
@@ -173,7 +173,7 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 </details>
 
 <sub>
-[Responder a las presentaciones fuera del ámbito de aplicación](https://devdevguide.netlify.app/es/softwarereview_editor.es#outofscoperesponse)
+[Decidir el alcance y el solapamiento](https://devdevguide.netlify.app/es/softwarereview_editor.es#decidir-el-alcance-y-el-solapamiento)
 </sub>
 
 # Pausa 10'
@@ -289,13 +289,14 @@ Genera, interpreta, y responde a resultados de [{pkgcheck}](https://docs.ropensc
 
 </details>
 
-Usa cualquier paquete, e.g. [{saperlipopette}](https://github.com/ropensci-training/saperlipopette)
+Usa cualquier paquete, e.g. [{saperlipopette v0.1.0}](https://github.com/ropensci-training/saperlipopette)
 
-<details><summary>Clonálo</summary>
+<details><summary>Clonálo y retrocede a v0.1.0</summary>
 
 ```bash
 git clone https://github.com/ropensci-training/saperlipopette
 cd saperlipopette
+git checkout v0.1.0
 ```
 
 </details>
@@ -311,25 +312,21 @@ out
 <details><summary>Mejoras</summary>
 
 ```r
-# install.packages("codemetar")
 # install.packages("usethis")
 
-# Has a 'codemeta.json' file
-codemetar::write_codemeta()
-
-# Has a 'contributing' file
+# ✖ does not have a 'contributing' file.
 usethis::use_tidy_contributing()
 
-# Package has at least one HTML vignette
+# ✖ Package has no HTML vignettes
 usethis::use_article("saperlipopette")
 
-# All functions have examples
-#' @examples
-#' path <- withr::local_tempdir()
-#' create_all_exercises(path)
-
-# R CMD check found 1 error
-usethis::use_package("parserdate")
+# ✖ These functions do not have examples: [create_all_exercises].
+# From https://github.com/ropensci-training/saperlipopette/blob/main/R/create-all.R
+#' @examplesIf interactive()
+#' parent_path <- withr::local_tempdir()
+#' path <- create_all_exercises(parent_path = parent_path)
+#
+# devtools::document()
 ```
 
 </details>
@@ -453,7 +450,7 @@ Sugerencia/Decisión
 </details>
 
 <sub>
-[Responder a las preguntas de quienes revisan](https://devdevguide.netlify.app/es/softwarereview_editor.es#reviewersupport)
+[Responder a las preguntas del equipo de revisión](https://devdevguide.netlify.app/es/softwarereview_editor.es#reviewersupport)
 </sub>
 
 # Preguntas
@@ -468,7 +465,7 @@ Sugerencia/Decisión
 Taller
 
 - <https://github.com/ropensci-training/software-review>
-- [Documento colaborativo](https://docs.google.com/document/d/14vpj_nzMyiP0H8YqSgFgfhZ99w9tIFAELRkEvBTINOo/edit?tab=t.0#heading=h.igss5ybwaspx) 
+- [Documento colaborativo](https://docs.google.com/document/d/1Af5ZjV8HJNVeTtGLBKOHkyQISand6-E3HLtI9qa-od8/edit?tab=t.0)
 
 Comunicación
 
