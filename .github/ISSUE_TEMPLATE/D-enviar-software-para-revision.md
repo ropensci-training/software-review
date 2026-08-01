@@ -44,6 +44,7 @@ Idioma: <!--language-->es<!--end-language-->
 	- [ ] enlaces a software de bases de datos (database software bindings)
 	- [ ] datos geoespaciales (geospatial data)
 	- [ ] tradución (translation)
+    - [ ] herramientas internas de rOpenSci 
 
 - Explica cómo y por qué el paquete encaja dentro de estas categorías (1 a 3 oraciones):
 
@@ -73,6 +74,13 @@ Este paquete:
 - [ ] Contiene una viñeta (_vignette_) con ejemplos de sus funciones esenciales y su uso.
 - [ ] Tiene una [suite de tests](https://devguide.ropensci.org/es/pkg_building.es.html#testing).
 - [ ] Tiene [integración contínua](https://devguide.ropensci.org/es/pkg_ci.es.html), incluyendo reporte de cobertura de tests.
+
+## Uso de IA generativa
+
+- [ ] Se han utilizado herramientas de IA generativa para producir parte del material del paquete que se envía a revisión.
+
+Si es así, describe su uso e incluye enlaces a cualquier aspecto relevante de tu repositorio. Consulta [nuestra entrada del blog](https://ropensci.org/blog/2026/02/26/ropensci-ai-policy/) para más información. (Aún no se incluyen consejos explícitos en nuestra Guía de desarrollo; esperamos actualizarla muy pronto y, mientras tanto, te pedimos tu colaboración y transparencia).
+
 
 ## Opciones de Publicación
 
