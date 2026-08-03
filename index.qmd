@@ -476,6 +476,7 @@ Revisión
   - [Para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
 - [Guía de software estadístico](https://stats-devguide.ropensci.org/)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
+- [pkgmatch](https://docs.ropensci.org/pkgmatch) ([ejemplo](https://github.com/ropensci/software-review/issues/766#issuecomment-4660730235))
 - [Plantilla de revisión](https://devdevguide.netlify.app/es/reviewtemplate.es)
 - [r-multiverse](https://r-multiverse.org/)
 
