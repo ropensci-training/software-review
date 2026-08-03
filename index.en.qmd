@@ -471,7 +471,7 @@ Review
 
 - [Propose or submit software for review](https://github.com/ropensci/software-review/issues/new/choose)
 - [Dev Guide](https://devdevguide.netlify.app/index)
-  - [Package categories](https://devdevguide.netlify.app/softwarereview_policies.html#package-categories)
+  - Package categories [standard](https://devdevguide.netlify.app/softwarereview_policies.html#package-categories) and [statistical](https://stats-devguide.ropensci.org/overview.html#overview-categories)
   - [Guide for Authors](https://devdevguide.netlify.app/softwarereview_author)
   - [Guide for Reviewers](https://devdevguide.netlify.app/softwarereview_reviewer)
 - [Statistical Software Guide](https://stats-devguide.ropensci.org/)

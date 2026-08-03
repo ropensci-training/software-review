@@ -471,7 +471,7 @@ Revisión
 
 - [Propone o enviá software para revisión](https://github.com/ropensci/software-review/issues/new/choose)
 - [Guía de desarrollo](https://devdevguide.netlify.app/es/index.es)
-  - [Categorías de paquetes](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories)
+  - Categorías de paquetes [standard](https://devdevguide.netlify.app/es/softwarereview_policies.es.html#package-categories) y [estadistico](https://stats-devguide.ropensci.org/overview.html#overview-categories)
   - [Para quienes crean paquetes](https://devdevguide.netlify.app/es/softwarereview_author.es)
   - [Para quienes hacen una revisión](https://devdevguide.netlify.app/es/softwarereview_reviewer.es)
 - [Guía de software estadístico](https://stats-devguide.ropensci.org/)
