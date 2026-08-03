@@ -449,7 +449,7 @@ Sugerencia/Decisión
 [Responder a las preguntas del equipo de revisión](https://devdevguide.netlify.app/es/softwarereview_editor.es#reviewersupport)
 </sub>
 
-# Preguntas
+# Preguntas y comentarios
 
 # ¡Gracias!
 
