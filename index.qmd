@@ -477,6 +477,7 @@ Revisión
 - [Guía de software estadístico](https://stats-devguide.ropensci.org/)
 - [pkgcheck](https://docs.ropensci.org/pkgcheck/)
 - [Plantilla de revisión](https://devdevguide.netlify.app/es/reviewtemplate.es)
+- [r-multiverse](https://r-multiverse.org/)
 
 Blogs sobre el proceso de revisión
 
