@@ -35,7 +35,7 @@ Day 2
 * Proposing software for review
   - Opening an issue
   - Kind and constructive communication
-* Questions and answers
+* Questions and comments
 
 # Review Process Overview
 
@@ -205,16 +205,7 @@ Use your own package or any of these:
 
 - Recommend reviewing and publishing it in the ["Journal of Open Source Education"](http://jose.theoj.org/)
 
-# Questions and Answers
-
-- Generate questions about the process of proposing software for review. For inspiration you can explore:
-
-  - [the actual software review submission template](https://github.com/ropensci/software-review/issues)
-  -  [actual issues tagged with 0/presubmission](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20label%3A0%2Fpresubmission)
-
-- Vote with `+` on 3 questions from other people
-
-- Answers
+# Questions and Comments
 
 # Day 2 Introduction
 
