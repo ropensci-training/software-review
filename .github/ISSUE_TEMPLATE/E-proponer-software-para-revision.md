@@ -1,6 +1,7 @@
 ---
 name: Preguntar si el software está dentro del alcance de rOpenSci
 about: ¿Quieres confirmar que tu paquete encaja en una revisión?
+labels: "0/presubmission"
 ---
 
 <!---
