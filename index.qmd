@@ -43,13 +43,7 @@ Sobre cómo trabajamos con [software](https://devguide.ropensci.org/es/index.es.
 
 ## Comparación con la academia
 
-En la academia y en rOpenSci:
-
-- ¿Cuál es la motivación de un/a autor/a o revisor/a?
-- ¿Qué otros roles participan?
-- ¿Cuándo se acepta o rechaza un trabajo?
-- ¿En qué plataforma se intercambian comentarios?
-- ¿Cómo es la comunicación esperada?
+¿Cómo describirías la comunicación entre autora/es y revisora/es en la academia y rOpenSci?
 
 ## [Proponer software para revisión](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20label%3A0%2Fpresubmission)
 
