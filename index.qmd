@@ -323,7 +323,7 @@ usethis::use_article("saperlipopette")
 
 ## Revisar un paquete
 
-Propone (solo) una mejora. Usa la [plantilla de revisión](https://github.com/ropensci-training/software-review/blob/main/templates/es/revision.md).
+Propone (solo) una mejora. Usa la [plantilla de revisión](https://devdevguide.netlify.app/es/reviewtemplate.es.html).
 
 Podés usar tu paquete o alguno de estos -- **antes de la revisión**:
 
