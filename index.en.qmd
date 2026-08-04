@@ -323,7 +323,7 @@ usethis::use_article("saperlipopette")
 
 ## Reviewing a Package
 
-Propose (only) one improvement. Use the [review template](https://github.com/ropensci-training/software-review/blob/main/templates/en/review.md).
+Propose (only) one improvement. Use the [review template](https://devdevguide.netlify.app/reviewtemplate).
 
 You can use your package or any of these -- **before the review**:
 
