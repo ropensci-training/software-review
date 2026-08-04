@@ -189,15 +189,16 @@ Use your own package or any of these:
 - [{eph}](https://github.com/ropensci/software-review/issues/593): Argentina's Permanent Household Survey Data and Manipulation Utilities
 - [{karel}](https://github.com/ropensci/software-review/issues/620): Learning programming with Karel the robot
 
-## Kind and Constructive Communication
+## Use of AI
 
-- [{karel}](https://docs.ropensci.org/karel/) is outside the scope of rOpenSci categories ([it was reviewed](https://github.com/ropensci/software-review/issues/620) as an exception through the champions program)
+We received several packages developed with AI and with a very short commit history. Facing the same challenge, JOSS requires a commit history of at least six months.
 
-- Assume the role of editor
+- Tell us if/how you use AI
+- Share your opinion on whether rOpenSci should imitate JOSS policy.
 
-- Write a kind and constructive comment, notifying the author that the package is outside the scope of rOpenSci
-
-- Recommend reviewing and publishing it in the ["Journal of Open Source Education"](http://jose.theoj.org/)
+:::aside
+[*Private developed projects are not eligible until a public commit history ... of at least six months exists -- JOSS*](https://joss.readthedocs.io/en/latest/submitting.html#scope-and-significance)
+:::
 
 # Questions and Comments
 

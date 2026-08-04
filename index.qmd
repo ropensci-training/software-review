@@ -189,15 +189,17 @@ Usá tu propio paquete o cualquiera de estos:
 - [{eph}](https://github.com/ropensci/software-review/issues/593): Encuesta Permanente de Hogares de Argentina
 - [{karel}](https://github.com/ropensci/software-review/issues/620): Aprendiendo programación en R
 
-## Comunicación amable y constructiva
+## Uso de IA
 
-- [{karel}](https://docs.ropensci.org/karel/) está fuera del alcance de las categorías de rOpenSci ([fue revisado](https://github.com/ropensci/software-review/issues/620) como excepción por el programa de campeones/as)
+Recibimos varios paquetes desarrollados con AI y con una historia de commits muy corta. Frente al mismo desafío JOSS requiere una historia de commits de al menos seis meses.
 
-- Asumí el rol de editor/a
+- Contanos si/como usas IA
+- Compartí tu opinión sobre si rOpenSci debería imitar la política de JOSS.
 
-- Escribí un comentario amable y constructivo, notificando al autor que el paquete está fuera del alcance de rOpenSci
+:::aside
+[*Los proyectos desarrollados de forma privada no son elegibles hasta que exista un historial público de ... al menos seis meses -- JOSS*](https://joss.readthedocs.io/en/latest/submitting.html#scope-and-significance)
+:::
 
-- Recomendá revisarlo y publicarlo en el ["Journal of Open Source Education"](http://jose.theoj.org/)
 
 # Preguntas y comentarios
 
