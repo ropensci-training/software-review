@@ -41,9 +41,11 @@ Day 2
 
 About how we work with [software](https://devguide.ropensci.org/index.html) and [people](https://ropensci.org/code-of-conduct/)
 
+::: {.callout-note icon=false}
 ## Comparison with Academia
 
-How would you describe communication between authors and reviewers in academia and rOpenSci?
+How would you describe the communication between authors and reviewers in academia and rOpenSci?
+:::
 
 ## [Proposing Software for Review](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20label%3A0%2Fpresubmission)
 
@@ -82,7 +84,8 @@ flowchart LR
 
 ## {pkgcheck}: Local Usage
 
-Installation
+::: {.callout-note icon=false}
+### Installation
 
 ```r
   options (repos = c (
@@ -92,7 +95,10 @@ Installation
   install.packages("pkgcheck")
 ```
 
-Example
+Also you'll need to run `pkgstats::ctags_install()` on Linux, or `brew install global` from the terminal on MacOS.
+:::
+
+Usage
 
 ```r
   package <- "/path/to/package"
@@ -136,11 +142,12 @@ Offer
 
 ## Kind and Constructive Communication
 
-Explain how and why the package fits into these categories.
+From an author:
 
-> `@author`: I couldn't find a category that fit perfectly, so I created a new category.
+> I couldn't find a category that fit perfectly, so I created a new category.
 
-**On a scale of 1 to 10, how many points would you give each response?**
+::: {.callout-note icon=false}
+### How would you score each response from an editor (1-10)?
 
 <details><summary>Response 1</summary>
 
@@ -170,31 +177,34 @@ Explain how and why the package fits into these categories.
 > I hope we can work with you on another package soon.
 
 </details>
+:::
 
-<sub>
+:::aside
 [Deciding on scope and overlap](https://devdevguide.netlify.app/softwarereview_editor#deciding-on-scope-and-overlap)
-</sub>
+:::
 
 # Break 10'
 
 # Proposing Software for Review
 
-## Opening an Issue
-
-Open an issue to propose software for review in the [practice repository](https://github.com/ropensci-training/software-review/issues)
+::: {.callout-note icon=false}
+## Open an issue to propose software for review in the [practice repository](https://github.com/ropensci-training/software-review/issues)
 
 Use your own package or any of these:
 
 - [{agroclimatico}](https://github.com/ropensci/software-review/issues/599): Climate and Hydrological Indices and Statistics
 - [{eph}](https://github.com/ropensci/software-review/issues/593): Argentina's Permanent Household Survey Data and Manipulation Utilities
 - [{karel}](https://github.com/ropensci/software-review/issues/620): Learning programming with Karel the robot
+:::
 
+::: {.callout-note icon=false}
 ## Use of AI
 
-We received several packages developed with AI and with a very short commit history. Facing the same challenge, JOSS requires a commit history of at least six months.
+We received several packages developed with AI and with a very short commit history. To face this challenge, JOSS requires a commit history of at least six months.
 
 - Tell us if/how you use AI
 - Share your opinion on whether rOpenSci should imitate JOSS policy.
+:::
 
 :::aside
 [*Projects developed privately are not eligible until there is a public record of open development: at least six months -- JOSS*](https://joss.readthedocs.io/en/latest/submitting.html#scope-and-significance)
@@ -220,11 +230,13 @@ What did we see on day 1? What are we going to see today?
 
 The [karel](https://github.com/ropensci/software-review/issues/620) package teaches programming. Its objective is outside the scope of rOpenSci. It was proposed for review in 2023, during the champions program.
 
-Was it correct for it to have been reviewed at rOpenSci?
+::: {.callout-note icon=false}
+### Was it correct for it to have been reviewed at rOpenSci?
 
 1. No because it doesn't fit the scope
 1. Yes because although it doesn't fit the scope it's an exception
 1. Yes because rOpenSci doesn't reject packages
+:::
 
 <details><summary>[Proposing software for review](https://github.com/ropensci/software-review/issues)</summary>
 
@@ -242,7 +254,8 @@ flowchart LR
 
 ## Review: Communication
 
-Why do we prefer the second response?
+::: {.callout-note icon=false}
+### Why do we prefer the second response?
 
 1. Actually we prefer the first one because it communicates the same decision but is shorter.
 1. Because it's more politically correct.
@@ -261,9 +274,11 @@ Why do we prefer the second response?
 > I would recommend publishing it in the [Journal of Open Source Software](https://joss.theoj.org/), the [r-multiverse](https://r-multiverse.org/overview.html) or [other repositories](https://r-multiverse.org/overview.html#other-repositories). And if you have another package or want to [explore how to contribute in other ways](https://contributing.ropensci.org/), we'll be happy to guide you.
 
 </details>
+:::
 
 # Submitting Software for Review
 
+::: {.callout-note icon=false}
 ## Preparing a Package
 
 Generate, interpret, and respond to [{pkgcheck}](https://docs.ropensci.org/pkgcheck/) results
@@ -299,8 +314,9 @@ summary(out)
 
 out
 ```
+:::
 
-<details><summary>Improvements</summary>
+<details><summary>Example</summary>
 
 ```r
 # install.packages("usethis")
@@ -324,7 +340,8 @@ usethis::use_article("saperlipopette")
 
 ## Reviewing a Package
 
-Propose (only) one improvement. Use the [review template](https://devdevguide.netlify.app/reviewtemplate).
+::: {.callout-note icon=false}
+### Propose (only) one improvement. Use the [review template](https://devdevguide.netlify.app/reviewtemplate).
 
 You can use your package or any of these -- **before the review**:
 
@@ -357,6 +374,7 @@ git checkout -b antes 4b057e67
 ```
 
 </details>
+:::
 
 <details><summary>Examples</summary>
 

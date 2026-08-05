@@ -41,9 +41,11 @@ Día 2
 
 Sobre cómo trabajamos con [software](https://devguide.ropensci.org/es/index.es.html) y [personas](https://ropensci.org/es/c%C3%B3digo-de-conducta/)
 
+::: {.callout-note icon=false}
 ## Comparación con la academia
 
 ¿Cómo describirías la comunicación entre autora/es y revisora/es en la academia y rOpenSci?
+:::
 
 ## [Proponer software para revisión](https://github.com/ropensci/software-review/issues?q=is%3Aissue%20state%3Aopen%20label%3A0%2Fpresubmission)
 
@@ -82,7 +84,8 @@ flowchart LR
 
 ## {pkgcheck}: Uso local
 
-Instalación
+::: {.callout-note icon=false}
+### Instalación
 
 ```r
   options (repos = c (
@@ -92,7 +95,10 @@ Instalación
   install.packages("pkgcheck")
 ```
 
-Ejemplo
+También vas a necesitar ejecutar `pkgstats::ctags_install()` en Linux, o `brew install global` desde la terminal en MacOS.
+:::
+
+Uso
 
 ```r
   paquete <- "/camino/al/paquete"
@@ -136,11 +142,12 @@ Ofrecer
 
 ## Comunicación amable y constructiva
 
-Explica cómo y por qué el paquete encaja en estas categorías.
+De parte de una autoría:
 
-> `@autor/a`: No encontré una categoría que se ajustara perfectamente, por lo que creé una categoría nueva.
+> No encontré una categoría que se ajustara perfectamente, por lo que creé una categoría nueva.
 
-**Del 1 al 10, cuántos puntos le das a cada respuesta?**
+::: {.callout-note icon=false}
+### ¿Qué puntaje le darías a cada respuesta de la editoría (1-10)?
 
 <details><summary>Respuesta 1</summary>
 
@@ -170,31 +177,34 @@ Explica cómo y por qué el paquete encaja en estas categorías.
 > Espero que pronto podamos trabajar con vos en algún otro paquete.
 
 </details>
+:::
 
-<sub>
+:::aside
 [Decidir el alcance y el solapamiento](https://devdevguide.netlify.app/es/softwarereview_editor.es#decidir-el-alcance-y-el-solapamiento)
-</sub>
+:::
 
 # Pausa 10'
 
 # Proponer software para revisión
 
-## Abrir un "issue"
-
-Abrí un "issue" para proponer software para revisión en el [repositorio de práctica](https://github.com/ropensci-training/software-review/issues)
+::: {.callout-note icon=false}
+## Abrir un issue para proponer software para revisión en el [repositorio de práctica](https://github.com/ropensci-training/software-review/issues)
 
 Usá tu propio paquete o cualquiera de estos:
 
 - [{agroclimatico}](https://github.com/ropensci/software-review/issues/599): Índices y Estadísticos Climáticos e Hidrológicos
 - [{eph}](https://github.com/ropensci/software-review/issues/593): Encuesta Permanente de Hogares de Argentina
 - [{karel}](https://github.com/ropensci/software-review/issues/620): Aprendiendo programación en R
+:::
 
+::: {.callout-note icon=false}
 ## Uso de IA
 
-Recibimos varios paquetes desarrollados con AI y con una historia de commits muy corta. Frente al mismo desafío JOSS requiere una historia de commits de al menos seis meses.
+Recibimos varios paquetes desarrollados con IA y con un historial de commits muy corto. Para hacer frente a este desafío, JOSS requiere un historial de commits de al menos seis meses.
 
-- Contanos si/como usas IA
+- Contanos si/cómo usás IA
 - Compartí tu opinión sobre si rOpenSci debería imitar la política de JOSS.
+:::
 
 :::aside
 [*Los proyectos desarrollados de forma privada no son elegibles hasta que exista un historial público de ... al menos seis meses -- JOSS*](https://joss.readthedocs.io/en/latest/submitting.html#scope-and-significance)
@@ -221,11 +231,13 @@ Recibimos varios paquetes desarrollados con AI y con una historia de commits muy
 
 El paquete [karel](https://github.com/ropensci/software-review/issues/620) enseña a programar. Su objetivo está fuera del alcance de rOpenSci. Fue propuesto para revisión en 2023, durante el programa de campeones/as.
 
-¿Es correcto que haya sido revisado en rOpenSci?
+::: {.callout-note icon=false}
+### ¿Es correcto que haya sido revisado en rOpenSci?
 
 1. No porque no encaja en el alcance
 1. Sí porque aunque no encaja en el alcance es una excepción
 1. Sí porque rOpenSci no rechaza paquetes
+:::
 
 <details><summary>[Proponer software para revisión](https://github.com/ropensci/software-review/issues)</summary>
 
@@ -243,7 +255,8 @@ flowchart LR
 
 ## Repaso: Comunicación
 
-¿Por qué preferimos la segunda respuesta?
+::: {.callout-note icon=false}
+### ¿Por qué preferimos la segunda respuesta?
 
 1. De hecho preferimos la primera porque comunica la misma decisión pero es más corta.
 1. Porque es más políticamente correcta.
@@ -262,12 +275,14 @@ flowchart LR
 > Te recomendaría publicarlo en el [Journal of Open Source Software](https://joss.theoj.org/), el [r-multiverse](https://r-multiverse.org/overview.html) u [otros repositorios](https://r-multiverse.org/overview.html#other-repositories). Y si tenés otro paquete o querés [explorar cómo contribuir de otra forma](https://contributing.ropensci.org/), será un gusto guiarte.
 
 </details>
+:::
 
 # Enviar software para revisión
 
+::: {.callout-note icon=false}
 ## Preparar un paquete
 
-Genera, interpreta, y responde a resultados de [{pkgcheck}](https://docs.ropensci.org/pkgcheck/)
+Generá, interpretá, y respondé a los resultados de [{pkgcheck}](https://docs.ropensci.org/pkgcheck/)
 
 <details><summary>Instalación</summary>
 
@@ -300,8 +315,9 @@ summary(out)
 
 out
 ```
+:::
 
-<details><summary>Mejoras</summary>
+<details><summary>Ejemplo</summary>
 
 ```r
 # install.packages("usethis")
@@ -325,7 +341,8 @@ usethis::use_article("saperlipopette")
 
 ## Revisar un paquete
 
-Propone (solo) una mejora. Usa la [plantilla de revisión](https://devdevguide.netlify.app/es/reviewtemplate.es.html).
+::: {.callout-note icon=false}
+### Proponé (solo) una mejora. Usá la [plantilla de revisión](https://devdevguide.netlify.app/es/reviewtemplate.es.html).
 
 Podés usar tu paquete o alguno de estos -- **antes de la revisión**:
 
@@ -358,6 +375,7 @@ git checkout -b antes 4b057e67
 ```
 
 </details>
+:::
 
 <details><summary>Ejemplos</summary>
 
