@@ -457,7 +457,6 @@ Sugerencia/Decisión
 Taller
 
 - <https://github.com/ropensci-training/software-review>
-- [Documento colaborativo](https://docs.google.com/document/d/1IJ1aD5VmYzO1zr61YteLkcrzb-8LzQMp1QRzByjwIPA/edit?usp=sharing)
 
 Comunicación
 
