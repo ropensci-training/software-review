@@ -197,7 +197,7 @@ We received several packages developed with AI and with a very short commit hist
 - Share your opinion on whether rOpenSci should imitate JOSS policy.
 
 :::aside
-[*Private developed projects are not eligible until a public commit history ... of at least six months exists -- JOSS*](https://joss.readthedocs.io/en/latest/submitting.html#scope-and-significance)
+[*Projects developed privately are not eligible until there is a public record of open development: at least six months -- JOSS*](https://joss.readthedocs.io/en/latest/submitting.html#scope-and-significance)
 :::
 
 # Questions and Comments
