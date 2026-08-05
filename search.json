@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "",
+    "text": "Sobre ustedes 🏅🇪🇸 y sobre mí 👋.\n Licencia: Atribución/Reconocimiento-NoComercial 4.0 Internacional \n\n\nDía 1\n\nFamiliarizarse con las etapas y cualidades del proceso\nPracticar proponer software para revisión\n\nDía 2\n\nPracticar enviar software para revisión\n\n\n\n\n\nIntroducción al taller\nIntroducción al proceso de punta a punta\n\nComparación con la academia\nProponer y enviar software para revisión\n{pkgcheck}\nCódigo de conducta y comunicación\n\nPausa\nProponer software para revisión\n\nAbrir un “issue”\nComunicación amable y constructiva\n\nPreguntas y comentarios"
+  },
+  {
+    "objectID": "index.html#objetivos-principales",
+    "href": "index.html#objetivos-principales",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "",
+    "text": "Día 1\n\nFamiliarizarse con las etapas y cualidades del proceso\nPracticar proponer software para revisión\n\nDía 2\n\nPracticar enviar software para revisión"
+  },
+  {
+    "objectID": "index.html#plan-para-el-dia-1",
+    "href": "index.html#plan-para-el-dia-1",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "",
+    "text": "Introducción al taller\nIntroducción al proceso de punta a punta\n\nComparación con la academia\nProponer y enviar software para revisión\n{pkgcheck}\nCódigo de conducta y comunicación\n\nPausa\nProponer software para revisión\n\nAbrir un “issue”\nComunicación amable y constructiva\n\nPreguntas y comentarios"
+  },
+  {
+    "objectID": "index.html#proponer-software-para-revisión",
+    "href": "index.html#proponer-software-para-revisión",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Proponer software para revisión",
+    "text": "Proponer software para revisión\n\n\n\n\n\nflowchart LR\n    B((1-Abrir issue))\n    B --&gt; C{2-¿Dentro del alcance?}\n    C --&gt;|No| E{3-¿Excepción?}\n    C --&gt;|Sí| D[4-Enviar]\n    E --&gt;|Sí| D\n    E --&gt;|No| G((5-Cerrar issue))"
+  },
+  {
+    "objectID": "index.html#enviar-software-para-revisión",
+    "href": "index.html#enviar-software-para-revisión",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Enviar software para revisión",
+    "text": "Enviar software para revisión\n\n\n\n\n\nflowchart LR\n    B((1-Abrir issue))\n    B --&gt; C[2-Revisar]\n    C --&gt; D{3-¿Listo?}\n    D --&gt;|No| C\n    D --&gt;|Sí| E((Publicar))"
+  },
+  {
+    "objectID": "index.html#pkgcheck-uso-en-un-issue",
+    "href": "index.html#pkgcheck-uso-en-un-issue",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "{pkgcheck}: Uso en un “issue”",
+    "text": "{pkgcheck}: Uso en un “issue”\n@ropensci-review-bot check package\nEjemplo\n\n\nComandos del bot"
+  },
+  {
+    "objectID": "index.html#pkgcheck-uso-local",
+    "href": "index.html#pkgcheck-uso-local",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "{pkgcheck}: Uso local",
+    "text": "{pkgcheck}: Uso local\n\n\n\n\n\n\nNotaInstalación\n\n\n\n  options (repos = c (\n    ropenscireviewtools = \"https://ropensci-review-tools.r-universe.dev\",\n    CRAN = \"https://cloud.r-project.org\"\n  ))\n  install.packages(\"pkgcheck\")\nTambién vas a necesitar ejecutar pkgstats::ctags_install() en Linux, o brew install global desde la terminal en MacOS.\n\n\nUso\n  paquete &lt;- \"/camino/al/paquete\"\n  resultados &lt;- pkgcheck::pkgcheck(paquete)\n  resultados\n  \n  summary(resultados)\n\n\nDocumentación de {pkgcheck}"
+  },
+  {
+    "objectID": "index.html#código-de-conducta",
+    "href": "index.html#código-de-conducta",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Código de Conducta",
+    "text": "Código de Conducta\n\nLa comunidad de rOpenSci es lo más importante.\nNuestro objetivo es que las revisiones sean\n\nabiertas,\nno conflictivas,\n\ny con el objetivo de mejorar la calidad del software.\n\n\n¡Sé amable! y comportate con respeto.\n\n\n\nGuía para quienes hacen una revisión\nGuía para el equipo editorial\nCódigo de Conducta"
+  },
+  {
+    "objectID": "index.html#comunicación-amable-y-constructiva",
+    "href": "index.html#comunicación-amable-y-constructiva",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Comunicación amable y constructiva",
+    "text": "Comunicación amable y constructiva\nOfrecer\n\nSeguridad\nSugerencia/Decisión\nSeguimiento\n\n\n\nCómo ganar amigos e influir sobre las personas\nConversaciones Cruciales: herramientas para comunicar mejor cuando más se necesita"
+  },
+  {
+    "objectID": "index.html#comunicación-amable-y-constructiva-1",
+    "href": "index.html#comunicación-amable-y-constructiva-1",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Comunicación amable y constructiva",
+    "text": "Comunicación amable y constructiva\nDe parte de una autoría:\n\nNo encontré una categoría que se ajustara perfectamente, por lo que creé una categoría nueva.\n\n\n\n\n\n\n\nNota¿Qué puntaje le darías a cada respuesta de la editoría (1-10)?\n\n\n\n\n\nRespuesta 1\n\n@editor/a:\n\n@autor/a,\nLamentablemente nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.\n\n\n\n\nRespuesta 2\n\n@editor/a:\n\n@autor/a gracias por tu consulta. El paquete parece muy interesante pero lamentablemente está fuera del alcance de las categorías actuales de rOpenSci. Nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.\n\n\n\n\nRespuesta 3\n\n@editor/a:\n\n@autor/a gracias por tu consulta. El paquete parece muy interesante pero lamentablemente está fuera del alcance de las categorías actuales de rOpenSci. Nuestras categorías están pre-definidas. Esperamos ampliarlas gradualmente, pero no podemos acomodar paquetes individuales.\n\n\nTe recomendaría revisar y publicar el paquete en el Journal of Open Source Software.\n\n\nEspero que pronto podamos trabajar con vos en algún otro paquete.\n\n\n\n\n\n\nDecidir el alcance y el solapamiento"
+  },
+  {
+    "objectID": "index.html#plan-para-el-día-2",
+    "href": "index.html#plan-para-el-día-2",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Plan para el día 2",
+    "text": "Plan para el día 2\n\nRepaso\nPreparar un paquete\nRevisar un paquete: Introducción\nPausa\nRevisar un paquete: Actividad\nResponder a una revisión\nPreguntas y respuestas"
+  },
+  {
+    "objectID": "index.html#repaso-proponer-software",
+    "href": "index.html#repaso-proponer-software",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Repaso: Proponer software",
+    "text": "Repaso: Proponer software\nEl paquete karel enseña a programar. Su objetivo está fuera del alcance de rOpenSci. Fue propuesto para revisión en 2023, durante el programa de campeones/as.\n\n\n\n\n\n\nNota¿Es correcto que haya sido revisado en rOpenSci?\n\n\n\n\nNo porque no encaja en el alcance\nSí porque aunque no encaja en el alcance es una excepción\nSí porque rOpenSci no rechaza paquetes\n\n\n\n\n\nProponer software para revisión\n\n\n\n\n\n\nflowchart LR\n    B((1-Abrir issue))\n    B --&gt; C{2-¿Dentro del alcance?}\n    C --&gt;|No| E{3-¿Excepción?}\n    C --&gt;|Sí| D[4-Enviar]\n    E --&gt;|Sí| D\n    E --&gt;|No| G((5-Cerrar issue))"
+  },
+  {
+    "objectID": "index.html#repaso-comunicación",
+    "href": "index.html#repaso-comunicación",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Repaso: Comunicación",
+    "text": "Repaso: Comunicación\n\n\n\n\n\n\nNota¿Por qué preferimos la segunda respuesta?\n\n\n\n\nDe hecho preferimos la primera porque comunica la misma decisión pero es más corta.\nPorque es más políticamente correcta.\nPorque demuestra que rOpenSci es un espacio seguro para hacer consultas, sugiere un foro alternativo, e invita futuras contribuciones.\n\n\n\nRespuesta 1\n\n\n@autor/a, Lamentablemente este paquete está fuera del alcance actual de rOpenSci.\n\n\n\n\nRespuesta 2\n\n\n@autor/a, Gracias por tu consulta. Tu paquete se ve muy interesante, pero lamentablemente parece no encajar en las categorías actuales de rOpenSci. Te recomendaría publicarlo en el Journal of Open Source Software, el r-multiverse u otros repositorios. Y si tenés otro paquete o querés explorar cómo contribuir de otra forma, será un gusto guiarte."
+  },
+  {
+    "objectID": "index.html#revisar-un-paquete",
+    "href": "index.html#revisar-un-paquete",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Revisar un paquete",
+    "text": "Revisar un paquete\n\n\n\n\n\n\nNotaProponé (solo) una mejora. Usá la plantilla de revisión.\n\n\n\nPodés usar tu paquete o alguno de estos – antes de la revisión:\n\n\n{agroclimatico}: Índices y Estadísticos Climáticos e Hidrológicos\n\ngit clone https://github.com/ropensci/agroclimatico\ncd agroclimatico\ngit checkout -b antes d537dd20\n\n\n\n{eph}: Encuesta Permanente de Hogares de Argentina\n\ngit clone https://github.com/ropensci/eph\ncd eph\ngit checkout -b antes 707cd24c\n\n\n\n{karel}: Aprendiendo programación en R\n\ngit clone https://github.com/ropensci/karel\ncd karel\ngit checkout -b antes 4b057e67\n\n\n\n\n\nEjemplos\n\n{eph}: Usar un estilizador de código automático (revisión - commit).\n\n\n{eph}: Mostrar el output de los ejemplos en README (revisión - commit).\n\nEn la sección “Modo de uso”, por favor mostrar los resultados así se ven sin necesidad de instalar el paquete y correr el código.\n\n\n{agroclimatico}: Renombrar funciones (revisión - commit).\n\npodría plantearse un ligero cambio de nombre para evitar la confusión\n\n\n{agroclimatico}: Agrupar funciones (revisión - commit).\n\nUna sugerencia para que quede más clara la funcionalidad global del paquete es agrupar las funciones en el índice por temáticas.\n\n\n{karel}: Expresar la necesidad del paquete en README (revisión - commit).\n\nAdd statement of need. The Who is Karel? section of the README hints at the need but does not describe it explicitly."
+  },
+  {
+    "objectID": "index.html#responder-a-una-revisión",
+    "href": "index.html#responder-a-una-revisión",
+    "title": "Taller de revisión de software por pares de rOpenSci",
+    "section": "Responder a una revisión",
+    "text": "Responder a una revisión\nCombina habilidades que ya practicamos.\nEjemplos de revisión y respuesta en {agroclimatico}\n\n\nRevisión de @VeruGHub (revisora)\n\nSeguridad\n\nEn primer lugar, quiero agradecer la oportunidad de revisar este paquete y espero que los comentarios sirvan para mejorar en los puntos que los autores consideren oportunos.\n\nSugerencia/Decisión\n\nCreo que algunos aspectos formales de la documentación pueden ser mejorados. Para empezar, la funcionalidad del paquete no está completamente definida en la documentación (Readme) … Mejorar estas descripciones e incluir programación defensiva relativa a los argumentos (en general faltante) ayudaría mucho a los usuarios.\n\n\n\n\nRespuesta de @paocorrales (autora)\n\nSeguridad\n\nEn primer lugar, muchas gracias @pmnatural y @VeruGHub por la revisión y los comentarios.\n\nSugerencia/Decisión\n\nIncorporé los comentarios y sugerencias al paquete.\n\nSeguimiento\n\nEspero no haberme olvidado de nada, ¡aguardo sus comentarios!\n\n\nEjemplo de oposición a una sugerencia en {eph}\n\n\nRespuesta de @caropradier (autora)\n\nSeguridad\n\n@lidefi87 ¡gracias de nuevo por tus esfuerzos!\n\nSugerencia/Decisión\n\nRespecto al nombre de las funciones, intentaría no hacer modificaciones mayores para no perturbar el flujo de trabajo de nuestros usuarios actuales (aproximadamente 30 mil personas usan el paquete y quisiera evitar generarles inconvenientes si no se trata de algo fundamental para el funcionamiento del paquete). No obstante, estoy de acuerdo con que se trata de una buena práctica, y lo tendré presente al incorporar nuevas funciones.\n\n\n Responder a las preguntas del equipo de revisión"
+  }
+]

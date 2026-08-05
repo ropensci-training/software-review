@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "",
+    "text": "About you 🏅🌐 and about me 👋.\n License: Attribution-NonCommercial 4.0 International \n\n\nDay 1\n\nFamiliarize yourself with the stages and qualities of the process\nPractice proposing software for review\n\nDay 2\n\nPractice submitting software for review\n\n\n\n\n\nWorkshop introduction\nEnd-to-end process introduction\n\nComparison with academia\nProposing and submitting software for review\n{pkgcheck}\nCode of conduct and communication\n\nBreak\nProposing software for review\n\nOpening an issue\nKind and constructive communication\n\nQuestions and comments"
+  },
+  {
+    "objectID": "index.html#main-objectives",
+    "href": "index.html#main-objectives",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "",
+    "text": "Day 1\n\nFamiliarize yourself with the stages and qualities of the process\nPractice proposing software for review\n\nDay 2\n\nPractice submitting software for review"
+  },
+  {
+    "objectID": "index.html#day-1-plan",
+    "href": "index.html#day-1-plan",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "",
+    "text": "Workshop introduction\nEnd-to-end process introduction\n\nComparison with academia\nProposing and submitting software for review\n{pkgcheck}\nCode of conduct and communication\n\nBreak\nProposing software for review\n\nOpening an issue\nKind and constructive communication\n\nQuestions and comments"
+  },
+  {
+    "objectID": "index.html#proposing-software-for-review",
+    "href": "index.html#proposing-software-for-review",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Proposing Software for Review",
+    "text": "Proposing Software for Review\n\n\n\n\n\nflowchart LR\n    B((1-Open issue))\n    B --&gt; C{2-In scope?}\n    C --&gt;|No| E{3-Exception?}\n    C --&gt;|Yes| D[4-Submit]\n    E --&gt;|Yes| D\n    E --&gt;|No| G((5-Close issue))"
+  },
+  {
+    "objectID": "index.html#submitting-software-for-review",
+    "href": "index.html#submitting-software-for-review",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Submitting Software for Review",
+    "text": "Submitting Software for Review\n\n\n\n\n\nflowchart LR\n    B((1-Open issue))\n    B --&gt; C[2-Review]\n    C --&gt; D{3-Ready?}\n    D --&gt;|No| C\n    D --&gt;|Yes| E((Publish))"
+  },
+  {
+    "objectID": "index.html#pkgcheck-usage-in-an-issue",
+    "href": "index.html#pkgcheck-usage-in-an-issue",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "{pkgcheck}: Usage in an Issue",
+    "text": "{pkgcheck}: Usage in an Issue\n@ropensci-review-bot check package\nExample\n\n\nBot commands"
+  },
+  {
+    "objectID": "index.html#pkgcheck-local-usage",
+    "href": "index.html#pkgcheck-local-usage",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "{pkgcheck}: Local Usage",
+    "text": "{pkgcheck}: Local Usage\n\n\n\n\n\n\nNoteInstallation\n\n\n\n  options (repos = c (\n    ropenscireviewtools = \"https://ropensci-review-tools.r-universe.dev\",\n    CRAN = \"https://cloud.r-project.org\"\n  ))\n  install.packages(\"pkgcheck\")\nAlso you’ll need to run pkgstats::ctags_install() on Linux, or brew install global from the terminal on MacOS.\n\n\nUsage\n  package &lt;- \"/path/to/package\"\n  results &lt;- pkgcheck::pkgcheck(package)\n  results\n\n  summary(results)\n\n\n{pkgcheck} documentation"
+  },
+  {
+    "objectID": "index.html#code-of-conduct",
+    "href": "index.html#code-of-conduct",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nrOpenSci’s community is our best asset.\n\nWe aim for reviews to be\n\nopen,\nnon-adversarial,\nand focused on improving software quality.\n\nBe respectful and kind.\n\n\n\nGuide for reviewers\nGuide for editors\nCode of Conduct"
+  },
+  {
+    "objectID": "index.html#kind-and-constructive-communication",
+    "href": "index.html#kind-and-constructive-communication",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Kind and Constructive Communication",
+    "text": "Kind and Constructive Communication\nOffer\n\nSafety\nSuggestion/Decision\nFollow-up\n\n\n\nHow to Win Friends and Influence People Crucial Conversations: Tools for Talking When Stakes Are High"
+  },
+  {
+    "objectID": "index.html#kind-and-constructive-communication-1",
+    "href": "index.html#kind-and-constructive-communication-1",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Kind and Constructive Communication",
+    "text": "Kind and Constructive Communication\nFrom an author:\n\nI couldn’t find a category that fit perfectly, so I created a new category.\n\n\n\n\n\n\n\nNoteHow would you score each response from an editor (1-10)?\n\n\n\n\n\nResponse 1\n\n@editor:\n\n@author, Unfortunately our categories are pre-defined. We hope to expand them gradually, but we cannot accommodate individual packages.\n\n\n\n\nResponse 2\n\n@editor:\n\n@author, thank you for your inquiry. The package looks very interesting but unfortunately it’s outside the scope of rOpenSci’s current categories. Our categories are pre-defined. We hope to expand them gradually, but we cannot accommodate individual packages.\n\n\n\n\nResponse 3\n\n@editor:\n\n@author, thank you for your inquiry. The package looks very interesting but unfortunately it’s outside the scope of rOpenSci’s current categories. Our categories are pre-defined. We hope to expand them gradually, but we cannot accommodate individual packages.\n\n\nI would recommend reviewing and publishing the package in the Journal of Open Source Software.\n\n\nI hope we can work with you on another package soon.\n\n\n\n\n\n\nDeciding on scope and overlap"
+  },
+  {
+    "objectID": "index.html#day-2-plan",
+    "href": "index.html#day-2-plan",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Day 2 Plan",
+    "text": "Day 2 Plan\n\nReview\nPreparing a package\nReviewing a package: Introduction\nBreak\nReviewing a package: Activity\nResponding to a review\nQuestions and answers"
+  },
+  {
+    "objectID": "index.html#review-proposing-software",
+    "href": "index.html#review-proposing-software",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Review: Proposing Software",
+    "text": "Review: Proposing Software\nThe karel package teaches programming. Its objective is outside the scope of rOpenSci. It was proposed for review in 2023, during the champions program.\n\n\n\n\n\n\nNoteWas it correct for it to have been reviewed at rOpenSci?\n\n\n\n\nNo because it doesn’t fit the scope\nYes because although it doesn’t fit the scope it’s an exception\nYes because rOpenSci doesn’t reject packages\n\n\n\n\n\nProposing software for review\n\n\n\n\n\n\nflowchart LR\n    B((1-Open issue))\n    B --&gt; C{2-In scope?}\n    C --&gt;|No| E{3-Exception?}\n    C --&gt;|Yes| D[4-Submit]\n    E --&gt;|Yes| D\n    E --&gt;|No| G((5-Close issue))"
+  },
+  {
+    "objectID": "index.html#review-communication",
+    "href": "index.html#review-communication",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Review: Communication",
+    "text": "Review: Communication\n\n\n\n\n\n\nNoteWhy do we prefer the second response?\n\n\n\n\nActually we prefer the first one because it communicates the same decision but is shorter.\nBecause it’s more politically correct.\nBecause it demonstrates that rOpenSci is a safe space to make inquiries, suggests an alternative forum, and invites future contributions.\n\n\n\nResponse 1\n\n\n@author, Unfortunately this package is outside rOpenSci’s current scope.\n\n\n\n\nResponse 2\n\n\n@author, Thank you for your inquiry. Your package looks very interesting, but unfortunately it doesn’t seem to fit rOpenSci’s current categories. I would recommend publishing it in the Journal of Open Source Software, the r-multiverse or other repositories. And if you have another package or want to explore how to contribute in other ways, we’ll be happy to guide you."
+  },
+  {
+    "objectID": "index.html#reviewing-a-package",
+    "href": "index.html#reviewing-a-package",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Reviewing a Package",
+    "text": "Reviewing a Package\n\n\n\n\n\n\nNotePropose (only) one improvement. Use the review template.\n\n\n\nYou can use your package or any of these – before the review:\n\n\n{agroclimatico}: Climate and Hydrological Indices and Statistics\n\ngit clone https://github.com/ropensci/agroclimatico\ncd agroclimatico\ngit checkout -b antes d537dd20\n\n\n\n{eph}: Argentina’s Permanent Household Survey Data and Manipulation Utilities\n\ngit clone https://github.com/ropensci/eph\ncd eph\ngit checkout -b antes 707cd24c\n\n\n\n{karel}: Learning programming with Karel the robot\n\ngit clone https://github.com/ropensci/karel\ncd karel\ngit checkout -b antes 4b057e67\n\n\n\n\n\nExamples\n\n{eph}: Use an automatic code formatter (review - commit).\n\nPlease use an automatic code formatter (e.g., usethis::use_tidy_style()). It’s useful to see that the style is consistent and follows a popular style guide like the “tidyverse style guide” (https://style.tidyverse.org/). This helps avoid thinking about style and saves mental energy for noticing more important things. Here are some examples of style violations:\n\n\n{eph}: Show the output of examples in README (review - commit).\n\nIn the “Usage” section, please show the results so they can be seen without needing to install the package and run the code.\n\n\n{agroclimatico}: Rename functions (review - commit).\n\na slight name change could be considered to avoid confusion\n\n\n{agroclimatico}: Group functions (review - commit).\n\nA suggestion to make the overall functionality of the package clearer is to group the functions in the index by topic.\n\n\n{karel}: Express the package’s need in README (review - commit).\n\nAdd statement of need. The Who is Karel? section of the README hints at the need but does not describe it explicitly."
+  },
+  {
+    "objectID": "index.html#responding-to-a-review",
+    "href": "index.html#responding-to-a-review",
+    "title": "rOpenSci Software Peer Review Workshop",
+    "section": "Responding to a Review",
+    "text": "Responding to a Review\nCombines skills we already practiced.\nExamples of review and response in {agroclimatico}\n\n\nReview by @VeruGHub (reviewer)\n\nSafety\n\nFirst of all, I want to thank you for the opportunity to review this package and I hope the comments help improve the aspects the authors consider appropriate.\n\nSuggestion/Decision\n\nI think some formal aspects of the documentation can be improved. To begin with, the package’s functionality is not completely defined in the documentation (Readme) … Improving these descriptions and including defensive programming related to the arguments (generally missing) would help users a lot.\n\n\n\n\nResponse by @paocorrales (author)\n\nSafety\n\nFirst of all, thank you very much @pmnatural and @VeruGHub for the review and comments.\n\nSuggestion/Decision\n\nI incorporated the comments and suggestions into the package.\n\nFollow-up\n\nI hope I didn’t forget anything, I await your comments!\n\n\nExample of pushback on a suggestion in {eph}\n\n\nResponse by @caropradier (author)\n\nSafety\n\n@lidefi87 thank you again for your efforts!\n\nSuggestion/Decision\n\nRegarding the function names, I would try not to make major modifications so as not to disrupt the workflow of our current users (approximately 30 thousand people use the package and I would like to avoid causing them inconvenience if it’s not something fundamental for the package’s functionality). However, I agree that it’s a good practice, and I’ll keep it in mind when adding new functions.\n\n\n Answering reviewers’ questions"
+  }
+]
